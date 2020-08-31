@@ -9,26 +9,44 @@
 --------------------------
     a. Identify the main assets that the system consists of  
        -  Authentication server
-       -  System administators
+       -  System administrator
        -  User:
-          -  Patitents
+          -  Patients
           -  Healthcare
           -  Social workers
-       -  Patient/Healthcare enviroment
+       -  Patient/Healthcare environment
        -  EHR
 
     b. Identify and specify the main actors, or roles, that the system deals with
        - Patient actors
           - Patients
-          - Socialworkers
+          - Social workers
           - Family members
        - Healthcare actors
           - Nurses
           - GP = General Practitioner
-          - HCP = Healtcare professionals
+          - HCP = Healthcare professionals
           - Pharmacist
-       - System administator
+       - System administrator
+            
+          - Tasks that the system administrator shall do:
+            - Adding new healthcare actors
+            - Managing system uptime
+            - Making sure that the system servers have enough resources
+            - Reviewing the systems security
+            - Decision
+         
+..
+            From Task1.pds:
+            "System monitoring:   System  administrators  (trusted  entities)  will  be  assigned  to  manage  the operation  of  your  system.  
+            The  administrators  are  responsible  for  the  upkeep,  configuration,  and reliable operation of the system to ensure, but not limited to, 
+            performance, resources, and security of the system to meet the needs of the patients and healthcare providers."
 
+
+
+
+
+            
 
     c. Develop high-level system architecture of the system  
 
