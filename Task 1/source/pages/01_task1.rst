@@ -18,6 +18,15 @@
        -  EHR
 
     b. Identify and specify the main actors, or roles, that the system deals with
+       - Patient actors
+          - Pasient
+          - Socialworker
+          - Family members
+       - Healthcare actors
+          - Nurse
+          - GP = General Practitioner
+          - HCP = Healtcare professionals
+          - Pharmacist 
 
 
     c. Develop high-level system architecture of the system  
