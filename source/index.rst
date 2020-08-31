@@ -9,12 +9,15 @@ Welcome to Programvaresikkerhet's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :glob:
+
+   pages/*
 
 
+..
+   Indices and tables
+   ==================
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
