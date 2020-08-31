@@ -1,3 +1,7 @@
 EHR = Electronic health record
 GP = General Practitioner = Fastlege
 Social workers = Hjemmepleier
+Asset = Assets are those items that are valuable to the organization, the loss of which
+can potentially cause disruptions in the organization’s ability to accomplish its
+missions. Some of the other reasons that enforce the need to protect assets today
+are regulations, compliance, privacy or the need to have a competitive advantage. 
