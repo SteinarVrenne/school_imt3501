@@ -19,14 +19,15 @@
 
     b. Identify and specify the main actors, or roles, that the system deals with
        - Patient actors
-          - Pasient
-          - Socialworker
+          - Patients
+          - Socialworkers
           - Family members
        - Healthcare actors
-          - Nurse
+          - Nurses
           - GP = General Practitioner
           - HCP = Healtcare professionals
-          - Pharmacist 
+          - Pharmacist
+       - System administator
 
 
     c. Develop high-level system architecture of the system  
