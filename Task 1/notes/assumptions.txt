@@ -1,0 +1,2 @@
+We assume :
+  This solution will be applied on a hospital in Norway
