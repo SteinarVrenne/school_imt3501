@@ -8,7 +8,14 @@
 3.Functional specification
 --------------------------
     a. Identify the main assets that the system consists of  
-        Blabla masse fin tekst her
+        Authentication server.
+        System administators
+        User:
+            Patitents
+            Healthcare
+            Social workers
+        Patient/Healthcare enviroment
+        EHR
 
     b. Identify and specify the main actors, or roles, that the system deals with
 
