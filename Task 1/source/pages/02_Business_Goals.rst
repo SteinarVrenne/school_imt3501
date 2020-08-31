@@ -1,8 +1,5 @@
-1.Read and understand the case study
-------------------------------------
-
-2.Identify the business goals of the system
--------------------------------------------
+Identify the business goals of the system
+=========================================
 
 The Out-patient Healthcare Monitoring system wish to build a healthcare
 monitoring system for patients that are discarded and returned home from the
@@ -17,22 +14,3 @@ system.
 - Communication between patients and healthcare workers via. mobile application.
 - Healthcare workers should be able to find/"edit?" information about the patients.
 -
-
-
-
-
-3.Functional specification
---------------------------
-
-Se egen fil
-   
-4.Security requirements
------------------------
-
-
-
-
-
-
-
-
