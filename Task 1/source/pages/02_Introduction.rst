@@ -3,8 +3,8 @@ Introduction
 
 Assumptions
 -----------
-- We assume that this solution will take place in Norway and according to
-Norwegian laws and policies.
+   - We assume that this solution will take place in Norway and according to
+     Norwegian laws and policies.
 
 Identifying business goals
 --------------------------
@@ -37,6 +37,6 @@ discarded patients especially, feels safe through a stable and available system.
 Definitions
 -----------
 
-- **EHR: **Electronic health record.
-- **GP: **General Practitioner.
-- **DB/DBMS: **Database and database management system.
+   - **EHR:** Electronic health record.
+   - **GP:** General Practitioner.
+   - **DB/DBMS:** Database and database management system.
