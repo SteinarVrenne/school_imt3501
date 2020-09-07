@@ -1,8 +1,13 @@
 Introduction
 ============
 
-Identify the business goals of the system
------------------------------------------
+Assumptions
+-----------
+- We assume that this solution will take place in Norway and according to
+Norwegian laws and policies.
+
+Identifying business goals
+--------------------------
 
 The Out-patient Healthcare Monitoring system wish to build a healthcare
 monitoring system for patients that are discarded and returned home from the
@@ -29,9 +34,9 @@ organization without troubles. Failing to do so might lessen precious time in a
 possible serious health situation. The organization wants to ensure that newly
 discarded patients especially, feels safe through a stable and available system.
 
-
-
-Assumptions
+Definitions
 -----------
-- We assume that this solution will take place in Norway and according to
-Norwegian laws and policies.
+
+- **EHR: **Electronic health record.
+- **GP: **General Practitioner.
+- **DB/DBMS: **Database and database management system.
