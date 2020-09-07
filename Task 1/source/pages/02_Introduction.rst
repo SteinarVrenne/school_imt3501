@@ -13,6 +13,8 @@ current situations. To ensure correct patient information at all times,
 healthcare workers should be able to find and edit their information through the
 system.
 
+
+
 - Followup of patients who are staying at home
 - Communication between patients and healthcare workers via. mobile application.
 - Healthcare workers should be able to find/"edit?" information about the patients.
