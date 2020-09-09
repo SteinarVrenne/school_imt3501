@@ -1,6 +1,16 @@
 Introduction
 ============
 
+This paper covers a fictional case study for an "Out-patient healthcare
+monitoring system" to be used between healthcare workers and their patients and
+is the first mandatory delivery for IMT3501 - Software Security at NTNU Gjøvik
+fall 2020. Firstly, we will cover some assumptions regarding this project. Based
+on our assumptions, we will identify core business goals for the organization in
+order to define a scope for the system.
+
+Furthermore, functional specifications for our case will be defined, followed by
+a more in-depth security requirements specification process.
+
 Assumptions
 -----------
    - We assume that this solution will take place in Norway and according to
