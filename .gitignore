@@ -1,3 +1,4 @@
+.gitignore
 .DS_Store
 .vscode
 Task 1/source/_build/*
