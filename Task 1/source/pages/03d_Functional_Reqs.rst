@@ -18,3 +18,4 @@ Functional Requirement Description
          After 5 failed login attempts, the user shall receive an email about their failed login attempts, with a link to resetting their password.
 - FR 10: No downtime during the days. Since there will be less activities in the nights, with less health care workers on shift, the system have a maximum downtime of X minutes at a time.
 - FR 11: The system shall have a response time within 5 seconds. If the website uses longer time to respond, the system administrators will receive a notification, and have to respond rapidly to minimize the response time.
+- FR 12: 
