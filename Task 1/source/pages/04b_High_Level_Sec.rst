@@ -1,5 +1,5 @@
 Identify and specify high level security requirements for the whole system
------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 These are our highlighted security requirements for the system. 
 
@@ -99,5 +99,5 @@ These are our highlighted security requirements for the system.
 | The website shall not be able to be accessed outside of the norwegian border.                              |
 +------------------------------------------------------------------------------------------------------------+
 
-    ... Source: https://safecomputing.umich.edu/information-security-requirements
+.. Source: https://safecomputing.umich.edu/information-security-requirements
     
