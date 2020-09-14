@@ -5,6 +5,9 @@ First and foremost, the system will deal with the communication between patient 
 
 The social worker and family member patient actors will use the application to contact the healthcare personnel of the patient whom they are responsible for. They will enter basic information about themselves into the system, and will work as a at-home assistance for the patient.
 
+.. 
+   Possibly write about device actors -- the ones that collect data in patient homes
+
 Next are the healthcare actors, this consists of nurses, General Practitioners (GP), pharmacists and other healthcare professionals the patient need conact with. The healthcare actors will be registered by the system administrators. The healthcare actors use the system mainly to contact and be contacted by their assigned patients, and read vitals information being sent to the system by remote equipment at patients home. This information is, but not limited to, blood pressure, sugar levels and heartbeat. Healthcare actors are then expected to process this information and give feedback or course of action for the patient.
 
 .. Should it be with?
