@@ -14,3 +14,28 @@ Identify and specify detailed (fine-granular) security requirement of the system
 |                   | responsible for any security occurrences will easily be able to pinpoint who to blame.                       | 
 +-------------------+--------------------------------------------------------------------------------------------------------------+
 
+
++-------------------+--------------------------------------------------------------------------------------------------------------+
+| SR.02                                                                                                                            |
++===================+==============================================================================================================+
+| Requirement name: | Prohibit short passwords.                                                                                    |
++-------------------+--------------------------------------------------------------------------------------------------------------+
+| Summary           | A user shall not be able to create a password shorter than 8 characters long.                                |
++-------------------+--------------------------------------------------------------------------------------------------------------+
+| Description       | In order to prevent brute force attack, we will enforce users to create passwords longer than 8 characters   |
+|                   | long.                                                                                                        |
++-------------------+--------------------------------------------------------------------------------------------------------------+
+
+
++-------------------+--------------------------------------------------------------------------------------------------------------+
+| SR.03                                                                                                                            |
++===================+==============================================================================================================+
+| Requirement name: | Separate stored information                                                                                  |
++-------------------+--------------------------------------------------------------------------------------------------------------+
+| Summary           | Data should not be stored in a way, that would made it possible for an attacker do dump every data record.   |                               
++-------------------+--------------------------------------------------------------------------------------------------------------+
+| Description       | To prevent mass leakage of data records, we can spread the stored information to multiple databases. If an   |
+|                   | attacker somehow gains access to one of the database files, it will not be able to tie that information to   |  
+|                   | anyone.                                                                                                      |
++-------------------+--------------------------------------------------------------------------------------------------------------+
+
