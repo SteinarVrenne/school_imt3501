@@ -32,7 +32,7 @@ Identify and specify detailed (fine-granular) security requirement of the system
 +===================+==============================================================================================================+
 | Requirement name: | Separate stored information                                                                                  |
 +-------------------+--------------------------------------------------------------------------------------------------------------+
-| Summary           | Data should not be stored in a way, that would made it possible for an attacker do dump every data record.   |                                |
+| Summary           | Data should not be stored in a way, that would made it possible for an attacker do dump every data record.   |                               
 +-------------------+--------------------------------------------------------------------------------------------------------------+
 | Description       | To prevent mass leakage of data records, we can spread the stored information to multiple databases. If an   |
 |                   | attacker somehow gains access to one of the database files, it will not be able to tie that information to   |  
