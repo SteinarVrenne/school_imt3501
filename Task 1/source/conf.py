@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Programvaresikkerhet'
+project = 'IMT3501 Programvaresikkerhet'
 copyright = '2020, H. Aarseth, M. Lindvall, E. Vestad, S. Vrenne, M. Wahl'
 author = 'H. Aarseth, M. Lindvall, E. Vestad, S. Vrenne, M. Wahl'
 

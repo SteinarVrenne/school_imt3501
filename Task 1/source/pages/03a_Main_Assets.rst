@@ -11,6 +11,8 @@ The Electronic Health Registry (EHR) is also vital to the organization. A disrup
 
 Patient vitality data, measurements taken at a patients home and then sent to the system, is a vital asset to the organization. A disruption would cause a severe impact on credibility and the healthcare professionals ability to complete their task. 
 
+Patients must input sensitive data, such as national identification number, name, date of birth, contact details and basic health information. This data is an asset as the system will not function if this data has been disrupted, e.g. altered, falsey or wrong. 
+
 
 .. 
    Identify the main assets that the system consists of

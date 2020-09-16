@@ -17,6 +17,8 @@ Next are the healthcare actors, this consists of nurses, General Practitioners (
 Last are the system administrators. The system administrators are responsible for everything to do with the platform. Their role is critical for the website/platform to be up. Their most important task is to make sure that the platform is working at all time, especially when most of the health care workers are at work. The other main IT operation the sysadmins have to deal with is making sure that the servers have enough system resources, and scaling the processing power and storage according the the user needs. Besides maintenance they have the important task of registration of health care workers on the platform. Making sure that they write the correct name, email, and ID. They could also look up the person in the public register of healthcare workers called HPR (Helsepersonellregisteret). Within security, the sysadmins have the responsibility of ensuring that the security of the platform meet the specified requirements. They may do this themselves, or hire in consultants to help them with hardening the security. When it comes to the implementation part of software development life cycle, the sysadmins would be responsible of testing the bug fixes, and new features implemented.
 
 
+.. IGNORE BELOW!!!!!
+
        - Patient actors
           - Patients = Will use the application to contact their healthcare
             professionals, must enrol and register his or herself (with national
