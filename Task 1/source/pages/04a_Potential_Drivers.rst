@@ -12,7 +12,8 @@ Internal
 
 External
 --------
-- E-helse direktoratet
+- E-helse direktoratet - https://ehelse.no/standarder/om-standardisering-i-e-helse/referansekatalogen-for-e-helse#Informasjonssikkerhet
+  - link til liste - https://ehelse.no/standarder
   - Kjernejournal
     - Lov - https://lovdata.no/dokument/SF/forskrift/2013-05-31-563
   - Lov om helseregistre - https://lovdata.no/dokument/NL/lov/2014-06-20-43
