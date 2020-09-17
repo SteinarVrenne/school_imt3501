@@ -11,7 +11,7 @@ Information gathering
 ~~~~~~~~~~~~~~~~~~~~~
 
 Within this information gathering part, I will divide the attacker profiles into
-two main categories.
+two main categories:
 
 * Foreign countries 
 
@@ -36,10 +36,7 @@ gained access to the database systems, which held all of the personal
 information. It is not clear what information which were extracted from the servers,
 although the one thing we know, is that a state actor were behind.
 
-
 * Individuals or groups 
-
-Someone who want to find out the health record of a public figure
 
 Someone that want so know a public figures health record. Maybe expose something
 that is not publicly know, in order to change peoples opinion of that person. In
@@ -50,7 +47,7 @@ not known, however information like this can be used to weaken peoples opinion
 about others.
 
 .. Source: https://www.theolivepress.es/spain-news/2020/04/17/teenage-hacker-arrested-in-madrid-for-hacking-medical-data-and-leaking-information-about-a-politician-who-was-positive-with-coronavirus/
-'
+
 
 Financially motivated
 ~~~~~~~~~~~~~~~~~~~~~
