@@ -50,3 +50,4 @@ Definitions
    - **EHR:** Electronic health record.
    - **GP:** General Practitioner.
    - **DB/DBMS:** Database and database management system.
+   - **SR:** Security Requirement.

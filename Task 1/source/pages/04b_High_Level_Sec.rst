@@ -1,6 +1,9 @@
-Identify and specify high level security requirements for the whole system
---------------------------------------------------------------------------
+Security Requirement Specification
+----------------------------------
 
+Below is a list of our specified security requirements. This list just entitles the requirements.
+Further analyzis, indexing and prioritization will take place in the next section.
+Our security requirements specification is performed according to the "IEEE 830-1998" standard.
 These are our highlighted security requirements for the system.
 **(Tenker vi endrer denne tabellen til kun "titler" på kravene, og utdyper de videre i 4c slik som i ITSM. Fikser senere)**
 
