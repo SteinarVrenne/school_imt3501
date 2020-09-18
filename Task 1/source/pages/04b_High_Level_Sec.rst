@@ -1,29 +1,23 @@
 Security Requirement Specification
 ----------------------------------
 
-Below is a list of our specified security requirements. This list just entitles the requirements.
-Further analyzis, indexing and prioritization will take place in the next section.
-Our security requirements specification is performed according to the "IEEE 830-1998" standard.
-These are our highlighted security requirements for the system.
-**(Tenker vi endrer denne tabellen til kun "titler" på kravene, og utdyper de videre i 4c slik som i ITSM. Fikser senere)**
+Below is a list of our specified security requirements. This list just highlights the specified requirements.
+Further detailed analyzis, indexing and prioritization will take place in the next section.
 
-.. csv-table::
-
-  "**Requirement index**", "**Requirement specification**"
-	"SR.01", "Logfiles should be detailed enough to point out the identity of a user, in case of a special event."
-	"SR.02", "A user shall not be able to create a password shorter than 8 characters long."
-	"SR.03", "Data should not be stored in a way that makes it possible for an attacker to dump data records."
-	"SR.04", "Users without corresponding permissions should not be able to retrieve any personal patient-information from the website."
-  "SR.05", "All passwords must be encrypted."
-  "SR.06", "The website should not accept invalid URL requests."
-  "SR.07", "System administrators should not be able to read any patient information in any way."
-  "SR.08", "Two-factor authentication is required for all users that has higher privileges than patients."
-  "SR.09", "Inactive user sessions should terminate after inactivity."
-  "SR.10", "Encrypted backups should be performed regularly."
-  "SR.11", "The website should be secured with encryption (TLS)"
-  "SR.12", "Authentication, authorization and system monitoring should be present at all times."
-  "SR.13", "Operating systems and softwares used in the healthcare system should always stay up to date with the latest updates/patches."
-  "SR.14", "A system administrators access shall be terminated upon resignation."
-  "SR.15", "The website shall not be able to be accessed outside of norwegian borders. "
+  - Logfiles should be detailed enough to point out the identity of a user.
+  - All passwords should be at least 8 characters long.
+  - Data should be securely stored.
+  - Users need to be authenticated in order to authorize.
+  - Only authorized users should be able to access patient information.
+  - All passwords should be encrypted.
+  - The website should not accept invalid URL requests.
+  - Two-factor authentication is required for user sign in.
+  - Inactive user sessions should terminate after inactivity.
+  - Encrypted backups should be performed regularly.
+  - The website should be secured with encryption (TLS).
+  - System monitoring should be present at all times.
+  - OS and softwares used should always stay up to date.
+  - A system administrators access shall be terminated upon resignation.
+  - The system should not be accessable outside Norwegian borders.
 
 .. Source: https://safecomputing.umich.edu/information-security-requirements
