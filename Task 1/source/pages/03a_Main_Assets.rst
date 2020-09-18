@@ -6,12 +6,31 @@ Users of the system, such as patients, healthcare workers and social workers are
 
 The Electronic Health Registry (EHR) is also vital to the organization. A disruption in this tool will prevent the healthcare personnel from doing their work and help their patients. 
 
+Patients must input sensitive data, such as national identification number, name, date of birth, contact details and basic health information. This data is an asset as the system will not function if this data has been disrupted, e.g. altered, falsey or wrong. 
+
 .. 
    Should this be included?
 
 Patient vitality data, measurements taken at a patients home and then sent to the system, is a vital asset to the organization. A disruption would cause a severe impact on credibility and the healthcare professionals ability to complete their task. 
 
-Patients must input sensitive data, such as national identification number, name, date of birth, contact details and basic health information. This data is an asset as the system will not function if this data has been disrupted, e.g. altered, falsey or wrong. 
+.. end of commment above ^
+
+To rank the identified assets we found, we used the National Institute of Standards and Technology asset ranking to rank our assets:
+
+.. image:: ../images/NIST_AssetRanking.png
+
+Source: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf 
+
+This is how we prioritize the identified assets in terms of confidentiality, integrity and availability. They are given a "low", "moderate", or "high" score dependent on the severity a disruption to the asset will cause.
+
+.. csv-table::
+	:header: **Asset**, **Confidentiality**, **Integrity**, **Availability**
+	:widths: 40, 15, 15, 15
+
+	"Authentication Server", "HIGH", "HIGH", "HIGH"
+	"System Administrators", "HIGH", "HIGH", "HIGH"
+	"Users", "HIGH", "HIGH", "HIGH"
+	"EHR", "HIGH", "HIGH", "HIGH"
 
 
 .. 
