@@ -66,16 +66,16 @@ SR.06 - Passwords should be hashed
 | **Related assets:**
 | **Requirement:** All passwords stored in the systems databases should be
   hashed with a secure hash algoritm, such as e.g. SHA-256, in order to prevent
-   clear text exposure in case of a data breach.
+  clear text exposure in case of a data breach.
 
 
- SR.07 - Web-application communication needs to be encrypted
- """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+SR.07 - Web-application communication needs to be encrypted
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
- | **Requirement categories:** Confidentiality, immunity.
- | **Security Mechanism:** Prevent.
- | **Related assets:**
- | **Requirement:** All communication related to the system web-application should
+| **Requirement categories:** Confidentiality, immunity.
+| **Security Mechanism:** Prevent.
+| **Related assets:**
+| **Requirement:** All communication related to the system web-application should
   benefit TLS encryption in order to prevent ... ... sent in clear text and malicious packet sniffers.
 
 
@@ -90,15 +90,55 @@ SR.08 - Two-factor authentication is required
   sensitive patient information.
 
 
-SR.08 - Prohibit short passwords
+SR.09 - Prohibit short passwords
 """"""""""""""""""""""""""""""""
 
 | **Requirement categories:** Non-repudiation.
-| **Security Mechanism:** Prevention
+| **Security Mechanism:** Mitigate.
 | **Related assets:**
-| **Requirement:** Two-factor authentication is required for all users that has
-  a higher level of privileges than patients, in order to prevent unwanted access to
-  sensitive patient information.
+| **Requirement:** Passwords shorter than 8 characters long should be prohibited,
+  in order to mitigate the process of potential bruteforce attacks.
+
+
+SR.10 - Inactive user sessions should terminate
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+| **Requirement categories:** Availability, identification & authentication
+| **Security Mechanism:** Mitigation.
+| **Related assets:**
+| **Requirement:** User sessions that has been inactive for more than 15 minutes
+  should be terminated in order to mitigate the risk of session cookies being stolen.
+
+
+SR.11 - Logfiles needs to be detailed
+"""""""""""""""""""""""""""""""""""""
+
+| **Requirement categories:** Accountability.
+| **Security Mechanism:** Detection.
+| **Related assets:**
+| **Requirement:** Event logfiles needs to be detailed and include timestamps,
+  event types and healthcare worker identity.
+
+
+SR.12 - Cancellation of system admins access rights
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+| **Requirement categories:** Integrity, secure maintenance, immunity, authorization, authentication.
+| **Security Mechanism:** Prevention.
+| **Related assets:**
+| **Requirement:** Access rights for system administrators should be terminated
+  upon resignation in order to prevent unauthorized access after the business relationship.
+
+
+SR.13 - The system should not be accessible outside Norwegian borders
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+| **Requirement categories:** Availability, identification & authentication, intrusion detection.
+| **Security Mechanism:** Prevention.
+| **Related assets:**
+| **Requirement:** As this system is designed for Norwegian healthcare only, it
+  should not be reachable for IP addresses outside of Norway.
+
 
 
 
@@ -134,52 +174,3 @@ Liste (ignorer):
 - A system administrators access shall be terminated upon resignation.
 - The website should not accept invalid URL requests.
 - The system should not be accessable outside Norwegian borders.
-
-
-
-
-
-
-
-
-
-
-
-
-
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| SR.01                                                                                                                            |
-+===================+==============================================================================================================+
-| Requirement name: | Detailed logfiles                                                                                            |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| Summary           | Logfiles should be detailed enough to point out the identity of a user, in case of a special event occurs .  |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| Description       | The websites logfile shall have a detailed logging system. Every event that is logged must have added the    |
-|                   | correspondent user ID to the event.  With this added information, the system administrators, which are       |
-|                   | responsible for any security occurrences will easily be able to pinpoint who to blame.                       |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-
-
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| SR.02                                                                                                                            |
-+===================+==============================================================================================================+
-| Requirement name: | Prohibit short passwords.                                                                                    |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| Summary           | A user shall not be able to create a password shorter than 8 characters long.                                |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| Description       | In order to prevent brute force attack, we will enforce users to create passwords longer than 8 characters   |
-|                   | long.                                                                                                        |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-
-
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| SR.03                                                                                                                            |
-+===================+==============================================================================================================+
-| Requirement name: | Separate stored information                                                                                  |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| Summary           | Data should not be stored in a way, that would made it possible for an attacker do dump every data record.   |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
-| Description       | To prevent mass leakage of data records, we can spread the stored information to multiple databases. If an   |
-|                   | attacker somehow gains access to one of the database files, it will not be able to tie that information to   |
-|                   | anyone.                                                                                                      |
-+-------------------+--------------------------------------------------------------------------------------------------------------+
