@@ -21,7 +21,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Patient"
 	"Prerequisites", "Patient is a registered user"
-	"Post requisites", "User is logged in"
+	"Outcome", "User is logged in"
 	"Main flow", "1. User enters credentials 
 	2. Credentials are sent to authentication server 
 	3. User is logged in"
@@ -34,7 +34,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Healthcare worker"
 	"Prerequisites", "Is a registered user"
-	"Post requisites", "Healthcare worker is logged in"
+	"Outcome", "Healthcare worker is logged in"
 	"Main flow", "1. Healthcare worker enters credentials 
 	2. Credentials are sent to authentication server 
 	3. Healthcare worker is logged in"
@@ -54,7 +54,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Patient and Healthcare worker"
 	"Prerequisites", "Actor is a registered user"
-	"Post requisites", "Actor is logged in"
+	"Outcome", "Actor is logged in"
 	"Main flow", "1. Actor has sent right credentials 
 	2. Authentication server approves 
 	3. Authentication server sends approved"
@@ -67,7 +67,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Patient"
 	"Prerequisites", "The patient has valid identification"
-	"Post requisites", "Actor is now registered"
+	"Outcome", "Actor is now registered"
 	"Main flow", "1. Actor sends in basic and sensitive information 
 	2. Authentication server receives request 
 	3. Authentication server sends the operation was succesful back to the actor
@@ -78,9 +78,10 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 .. csv-table::
 	:header: **UC - Register new Healthcare worker**, **Description**
 	:widths: 3, 10
+
 	"Actor", "System Adminstrator"
 	"Prerequisites", "Is a registered and valid user"
-	"Post requisites", "New Healthcare worker account is made"
+	"Outcome", "New Healthcare worker account is made"
 	"Main flow", "1. Actor has sent right credentials 
 	2. Authentication server approves 
 	3. Authentication server sends approved
@@ -94,14 +95,12 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Patient and System Administrator"
 	"Prerequisites", ""
-	"Post requisites", "New user has been created"
+	"Outcome", "New user has been created"
 	"Main flow", "1. Actor has sent right credentials to authentication server 
 	2. Authentication server creates new user 
 	3. Authentication server returns success"
 	"Side flow", ""
 	"Deviations", "1.1 Actor provides invalid info and authentication server returns an error"
-
-.. not finished!
 
 .. csv-table::
 	:header: **UC - Contact**, **Description**
@@ -109,7 +108,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Patient and Healthcare worker"
 	"Prerequisites", "Actor is logged in"
-	"Post requisites", "A communication channel between the two actors is established"
+	"Outcome", "A communication channel between the two actors is established"
 	"Main flow", "1. Actor uses the application and chooses who he wants to contact 
 	2. Request is sent to the system
 	3. System sends a call to the contacted actor
@@ -125,7 +124,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 
 	"Actor", "Patient-at-home devices"
 	"Prerequisites", "Patient-at-home devices is powered and connected to the system"
-	"Post requisites", "The patient vitals is registered in the system"
+	"Outcome", "The patient vitals is registered in the system"
 	"Main flow", "1. At intervals, patient-at-home devices connects to the system 
 	2. Actor sends over patient vitals data
 	3. Actor is finished and system terminates connection"
