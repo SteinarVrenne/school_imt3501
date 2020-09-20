@@ -11,6 +11,8 @@ Identify and specify the main abuse cases of the system
     	"Description", ""
     	"Countermeasures", ""
 
+.. image:: ../images/04e_Abuse_Case_Diagram.drawio.png
+
 Confidentiality abuse cases
 """""""""""""""""""""""""""
 
@@ -169,8 +171,6 @@ Attacks
 	"Purpose", "Gaining higher-level credentials for greater access to the system"
 	"Description", "A hacker exploits a vulnerability that grants them elevated privileges in the system, which have more access, to traverse and take over hosts on the network."
 	"Countermeasures", "Enforce principle of least privilege across the entire organization, not using local administrator accounts, requiring multi-factor authentication for higher privileged accounts."
-
-.. image:: ../images/04e_Abuse_Case_Diagram.drawio.png
 
 ..
 	Angrep!
