@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'IMT3501 Programvaresikkerhet'
+project = 'IMT3501 Programvaresikkerhet - Xgenic - Out-patient Healthcare Monitoring System - Task 1'
 copyright = '2020, H. Aarseth, M. Lindvall, E. Vestad, S. Vrenne, M. Wahl'
 author = 'H. Aarseth, M. Lindvall, E. Vestad, S. Vrenne, M. Wahl'
 
