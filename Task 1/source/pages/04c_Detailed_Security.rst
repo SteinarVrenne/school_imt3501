@@ -34,7 +34,7 @@ Security Mechanisms
 -------------------
 
 In order to elaborate on why the specific security requirements are necessary,
-we decided to include some security mechanisms. These mechanisms tells us what
+we decided to include some security mechanisms. These mechanisms tell us what
 requirements are developed to achieve. Below is a table of our specified
 security mechanisms along with corresponding definitions.
 
@@ -60,7 +60,7 @@ SR.01 - Data should be stored encrypted
 | **Security Mechanism:** Mitigate.
 | **Related assets:** User data, Database server.
 | **Requirement:** Data about patients should be stored using encryption algorithms in order to
-  protect users privacy, maintain confidentiality and mitigate exposure in case
+  protect user's privacy, maintain confidentiality and mitigate exposure in case
   of an unauthorized data dump.
 
 
@@ -133,8 +133,8 @@ SR.08 - Two-factor authentication is required
 | **Requirement categories:** Integrity, identification & authentication.
 | **Security Mechanism:** Prevention.
 | **Related assets:** Authenticative data
-| **Requirement:** Two-factor authentication is required for all users that has
-  a higher level of privileges than patients in order to prevent unwanted access to
+| **Requirement:** Two-factor authentication is required for all users that have
+  higher level of privilege than patients in order to prevent unwanted access to
   sensitive patient information.
 
 
@@ -145,7 +145,7 @@ SR.09 - Prohibit short passwords
 | **Security Mechanism:** Mitigate.
 | **Related assets:** Authenticative data
 | **Requirement:** Passwords shorter than 8 characters long should be prohibited,
-  in order to mitigate the process of potential bruteforce attacks.
+  in order to mitigate the success of potential bruteforce attacks.
 
 
 SR.10 - Inactive user sessions should terminate
