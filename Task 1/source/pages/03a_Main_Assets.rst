@@ -17,7 +17,7 @@ In every step of the way for data transported on the system, the data is logged.
 
 To rank the identified assets we found, we use the National Institute of Standards and Technology asset ranking to rank our assets (NIST 800-18): 
 
-.. image:: ../images/NIST_AssetRanking.png
+.. image:: ../images/NIST_AssetRanking.PNG
 
 Source: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf; 19.09-2020.
 
