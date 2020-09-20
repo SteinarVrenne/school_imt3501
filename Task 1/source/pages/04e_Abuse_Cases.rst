@@ -170,18 +170,19 @@ Attacks
 	"Description", "A hacker exploits a vulnerability that grants them elevated privileges in the system, which have more access, to traverse and take over hosts on the network."
 	"Countermeasures", "Enforce principle of least privilege across the entire organization, not using local administrator accounts, requiring multi-factor authentication for higher privileged accounts."
 
-Angrep!
-- Bufferoverflow
-- SQLi
-- XSS
-- Phishing, spearphishing
-- Ransomware
-- Man in the middle
-- Privilege escalation
-- DoS / DDoS
+..
+	Angrep!
+	- Bufferoverflow
+	- SQLi
+	- XSS
+	- Phishing, spearphishing
+	- Ransomware
+	- Man in the middle
+	- Privilege escalation
+	- DoS / DDoS
 
-Angripere!
-- Insidere
-    - Gjelder alle som kan logge inn
-- Statlig aktør
-- Hacker
+	Angripere!
+	- Insidere
+	    - Gjelder alle som kan logge inn
+	- Statlig aktør
+	- Hacker
