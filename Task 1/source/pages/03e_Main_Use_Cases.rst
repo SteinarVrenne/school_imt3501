@@ -1,11 +1,11 @@
 Identify and specify the main use cases of the system
 -----------------------------------------------------
 
-The Use Cases for this system is mainly performed by 4 main actors, Healthcare worker, System administrator, Patient-at-home devices and the Patient actor. The Patient actor is an abstraction for social workers and family members, whom function the same as a Patient actor. Patient-at-home devices are typically devices stationed at a patients home that will continually deliver data to the system about the patients vitals, such as blood sugar, blood pressure etc..
+The Use Cases for this system are mainly performed by four main actors, Healthcare workers, System administrators, Patient-at-home devices and the Patient actors. The Patient actor is an abstraction for social workers and family members, whom function the same as a Patient actor. Patient-at-home devices are typically devices stationed at a patients home that will continually deliver data to the system about the patients vitals, such as blood sugar, blood pressure etc..
 
-There is also the Use Cases of general tasks that needs to be done, for example when System Administrator needs access to the system to do maintenance work or manage and configure for eventual new needs. These are tasks, but not limited to, such as configuring new software, updating existing software, redistribution of available resources etc..
+There is also the Use Cases of general tasks that need to be done, for example when System Administrators need access to the system to do maintenance work or manage and configure for eventual new needs. These are tasks such as configuring new software, updating existing software, redistribution of available resources etc..
 
-The diagram below represents the main use cases we have identified for this system.
+The diagram below represents the main Use Cases we have identified for this system.
 
 .. Use case diagram
 
@@ -22,8 +22,8 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Patient"
 	"Prerequisites", "Patient is a registered user"
 	"Outcome", "User is logged in"
-	"Main flow", "1. User enters credentials 
-	2. Credentials are sent to authentication server 
+	"Main flow", "1. User enters credentials
+	2. Credentials are sent to authentication server
 	3. User is logged in"
 	"Side flow", ""
 	"Deviations", "1.1 User enters wrong credentials and is returned an error, is denied access to the system"
@@ -35,8 +35,8 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Healthcare worker"
 	"Prerequisites", "Is a registered user"
 	"Outcome", "Healthcare worker is logged in"
-	"Main flow", "1. Healthcare worker enters credentials 
-	2. Credentials are sent to authentication server 
+	"Main flow", "1. Healthcare worker enters credentials
+	2. Credentials are sent to authentication server
 	3. Healthcare worker is logged in"
 	"Side flow", "
 	3.1 Healthcare worker accesses the EHR
@@ -55,8 +55,8 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Patient and Healthcare worker"
 	"Prerequisites", "Actor is a registered user"
 	"Outcome", "Actor is logged in"
-	"Main flow", "1. Actor has sent right credentials 
-	2. Authentication server approves 
+	"Main flow", "1. Actor has sent right credentials
+	2. Authentication server approves
 	3. Authentication server sends approved"
 	"Side flow", ""
 	"Deviations", "1.1 Actor provides wrong credentials and is shown error message, is denied access to the system"
@@ -68,8 +68,8 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Patient"
 	"Prerequisites", "The patient has valid identification"
 	"Outcome", "Actor is now registered"
-	"Main flow", "1. Actor sends in basic and sensitive information 
-	2. Authentication server receives request 
+	"Main flow", "1. Actor sends in basic and sensitive information
+	2. Authentication server receives request
 	3. Authentication server sends the operation was succesful back to the actor
 	4. Patient is given a user in the system"
 	"Side flow", ""
@@ -82,8 +82,8 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "System Adminstrator"
 	"Prerequisites", "Is a registered and valid user"
 	"Outcome", "New Healthcare worker account is made"
-	"Main flow", "1. Actor has sent right credentials 
-	2. Authentication server approves 
+	"Main flow", "1. Actor has sent right credentials
+	2. Authentication server approves
 	3. Authentication server sends approved
 	4. Healthcare worker is given a new user in the system"
 	"Side flow", ""
@@ -96,8 +96,8 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Patient and System Administrator"
 	"Prerequisites", ""
 	"Outcome", "New user has been created"
-	"Main flow", "1. Actor has sent right credentials to authentication server 
-	2. Authentication server creates new user 
+	"Main flow", "1. Actor has sent right credentials to authentication server
+	2. Authentication server creates new user
 	3. Authentication server returns success"
 	"Side flow", ""
 	"Deviations", "1.1 Actor provides invalid info and authentication server returns an error"
@@ -109,7 +109,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Patient and Healthcare worker"
 	"Prerequisites", "Actor is logged in"
 	"Outcome", "A communication channel between the two actors is established"
-	"Main flow", "1. Actor uses the application and chooses who he wants to contact 
+	"Main flow", "1. Actor uses the application and chooses who he wants to contact
 	2. Request is sent to the system
 	3. System sends a call to the contacted actor
 	4. Contacted actor responds
@@ -125,7 +125,7 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	"Actor", "Patient-at-home devices"
 	"Prerequisites", "Patient-at-home devices is powered and connected to the system"
 	"Outcome", "The patient vitals is registered in the system"
-	"Main flow", "1. At intervals, patient-at-home devices connects to the system 
+	"Main flow", "1. At intervals, patient-at-home devices connects to the system
 	2. Actor sends over patient vitals data
 	3. Actor is finished and system terminates connection"
 	"Side flow", ""
