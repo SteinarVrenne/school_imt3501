@@ -9,12 +9,13 @@ In this section we will identify the documents that influence our security requi
 .. https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/om-personopplysningsloven-og-nar-den-gjelder/ "Det betyr at alle norske regler om behandling av personopplysninger må passe inn i personvernforordningens system for å være gyldige."
 
 Internal
---------
+""""""""
 
-We will be using the agile-version of Microsoft's Secure Development Lifecycle as we assume it is required by our company to be using a framework for our development. The use of this framework will add certain requirements, some of which will be necessary to enforce every sprint while others are only once in a while or once for the entire project. 
+
+We will be using the agile-version of Microsoft's Secure Development Lifecycle as we assume it is required by our company to be using a framework for our development. The use of this framework will add certain requirements, some of which will be necessary to enforce every sprint while others are only once in a while or once for the entire project.
 
 External
---------
+""""""""
 
 .. - Direktoratet for e-helse
   - Messaging standard for pregnancy termination
