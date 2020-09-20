@@ -125,6 +125,51 @@ Availability abuse cases
 Attacks
 """""""
 
+.. csv-table::
+	:header: **AC - SQLi/XSS**, **Description**
+	:widths: 3, 10
+
+	"Actor", "Hacker"
+	"Purpose", "Actor who wishes to damage the system"
+	"Description", "Through command injection on a vulnerable web interface in the system, the attacker manipulates data and runs malicious commands against the infrastructure."
+	"Countermeasures", "Input sanitization."
+
+.. csv-table::
+	:header: **AC - Phishing**, **Description**
+	:widths: 3, 10
+
+	"Actor", "Hacker"
+	"Purpose", "Obtain login credentials"
+	"Description", "An external actor sends an email to an employee, tricking them into logging in with their credentials on a malicious clone of the system website."
+	"Countermeasures", "Regular phishing simulations, spam filters, employee training"
+
+.. csv-table::
+	:header: **AC - Ransomware**, **Description**
+	:widths: 3, 10
+
+	"Actor", "Hacker"
+	"Purpose", "Seize the system and hold it hostage for a ransom"
+	"Description", "A malicious third party deploys ransomware to the system, encrypting all data and requiring the payment of a substantial ransom for data recovery."
+	"Countermeasures", "Endpoint security software, network segmentation"
+
+.. csv-table::
+	:header: **AC - Man in the middle**, **Description**
+	:widths: 3, 10
+
+	"Actor", "Hacker, insider"
+	"Purpose", "Intercepting data traffic to recover credentials and data"
+	"Description", "A hacker intercepts traffic in order to recover credentials and/or data to sell to black market agents for substantial financial gain."
+	"Countermeasures", "Encrypting data in traffic via TLS, and not using insecure data transfer or configuration protocols."
+
+.. csv-table::
+	:header: **AC - **, **Description**
+	:widths: 3, 10
+
+	"Actor", "Hacker"
+	"Purpose", "Gaining higher-level credentials for greater access to the system"
+	"Description", "A hacker exploits a vulnerability that grants them elevated privileges in the system, which have more access, to traverse and take over hosts on the network."
+	"Countermeasures", "Enforce principle of least privilege across the entire organization, not using local administrator accounts, requiring multi-factor authentication for higher privileged accounts."
+
 Angrep!
 - Bufferoverflow
 - SQLi
