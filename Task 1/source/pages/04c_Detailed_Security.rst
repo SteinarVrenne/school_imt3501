@@ -33,20 +33,35 @@ We have elaborated on these categories in order to concretize the different SR a
 Security Mechanisms
 -------------------
 
+In order to elaborate on why the specific security requirements are necessary,
+we decided to include some security mechanisms. These mechanisms tells us what
+requirements are developed to achieve. Below is a table of our specified
+security mechanisms along with corresponding definitions.
+
+.. csv-table::
+  :header: **Mechanism**, **Explanation**
+  :widths: 15, 35
+
+  "Deterrence", "Aims to maintain the requirement by creating deter before an eventual breach."
+  "Prevention", "Aims to prevent actions from happening in a physical manner."
+  "Detection", "Aims to maintain the possibility to detect actions and events."
+  "Mitigation", "Aims to mitigate the possible risk of incidents."
+  "Response", "Aims to develop responsive actions for different incidents."
 
 
 
 Detailed security requirements
 ------------------------------
 
-SR.01 - Data should be securely stored
-""""""""""""""""""""""""""""""""""""""
+SR.01 - Data should be stored encrypted
+"""""""""""""""""""""""""""""""""""""""
 
 | **Requirement categories:** Confidentiality, Privacy.
 | **Security Mechanism:** Mitigate.
 | **Related assets:**
-| **Requirement:** Data about patients should be stored securely in order to
-  protect users privacy, maintain confidentiality and mitigate exposure in case of an unauthorized data dump.
+| **Requirement:** Data about patients should be stored using encryption algoritms in order to
+  protect users privacy, maintain confidentiality and mitigate exposure in case
+  of an unauthorized data dump.
 
 
 SR.02 - Authorized users only should be able to access patient information

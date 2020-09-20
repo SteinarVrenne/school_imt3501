@@ -6,7 +6,7 @@ Further detailed analyzis, indexing and prioritization will take place in the ne
 
   - Logfiles needs to be detailed.
   - Prohibit short passwords.
-  - Data should be securely stored.
+  - Data should be stored encrypted
   - Users need to be authenticated in order to authorize.
   - Only authorized users should be able to access patient information.
   - Passwords should be encrypted.

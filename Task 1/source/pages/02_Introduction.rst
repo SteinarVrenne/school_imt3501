@@ -52,7 +52,7 @@ Terminology
 
 .. csv-table::
   :header: **Term**, **Definition**
-	:widths: 15, 40
+  :widths: 15, 40
 
 	"**EHR**", "Electronic health record"
   "**GP**", "General Practitioner"
