@@ -1,5 +1,6 @@
-Potentail Drivers
-=================
+Potential Drivers
+-----------------
+
 ..  a. Identify the potential external and internal drivers for the security requirements
 In this section we will identify the documents that influence our security requirements.
 

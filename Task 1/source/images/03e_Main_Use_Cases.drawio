@@ -1,6 +1,6 @@
-<mxfile host="8ef5a963-2410-408c-81c4-3804346e6634" modified="2020-09-20T12:30:05.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="xGGMSZoKGtB7EDM9rDZl" version="13.1.3">
+<mxfile host="8ef5a963-2410-408c-81c4-3804346e6634" modified="2020-09-20T13:24:17.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="p6C8yJRoTZTU8Ymb9bWR" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="840" dy="2406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1131" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,12 @@
                     <mxGeometry x="280" y="-190" width="800" height="990" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="11" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="150"/>
+                            <mxPoint x="260" y="385"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Patient&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="120" width="30" height="60" as="geometry"/>
@@ -36,23 +41,21 @@
                     <mxGeometry x="550" y="240" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="30" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="668" y="400"/>
+                            <mxPoint x="668" y="495"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Register new Patient" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="340" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="400" y="350" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Contact and get contacted by Healthcare worker or Patient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="385" y="160" width="330" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="15" target="30" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="810" y="585"/>
-                        </Array>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="15" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -62,6 +65,9 @@
                             <mxPoint x="730" y="350"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Register new Healthcare worker" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="550" y="550" width="140" height="70" as="geometry"/>
@@ -91,13 +97,13 @@
                     <mxGeometry x="950" y="-190" width="130" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="Provide Basic information" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="800" y="430" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="810" y="460" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="Provide sensitive information" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="797" y="340" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="810" y="340" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="&amp;lt;includes&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" parent="1" vertex="1">
-                    <mxGeometry x="730" y="350" width="70" height="20" as="geometry"/>
+                    <mxGeometry x="550" y="365" width="70" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="&amp;lt;includes&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" parent="1" vertex="1">
                     <mxGeometry x="690" y="565" width="70" height="20" as="geometry"/>
@@ -178,12 +184,13 @@
                 <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="11" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="730" y="351"/>
+                            <mxPoint x="520" y="340"/>
+                            <mxPoint x="730" y="340"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="69" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="650" y="330" width="80" height="20" as="geometry"/>
+                    <mxGeometry x="510" y="320" width="80" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="620" y="520" width="80" height="20" as="geometry"/>
@@ -192,7 +199,7 @@
                     <mxGeometry x="850" y="10" width="80" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="&amp;lt;includes&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" parent="1" vertex="1">
-                    <mxGeometry x="750" y="400" width="70" height="20" as="geometry"/>
+                    <mxGeometry x="550" y="400" width="70" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
