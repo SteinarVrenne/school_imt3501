@@ -4,7 +4,7 @@ Identify and specify the main potential attacker profiles who would attack the s
 A website with a lot of personal information, and health records like this could
 potentially attract a lot of attention from state nations, as well as individuals who
 wants to know a persons health status. We can divide the potential attackers
-into two groups, based on their intentions: financally motivated, and
+into two groups, based on their intentions: financially motivated, and
 information gathering
 
 Information gathering
@@ -27,9 +27,12 @@ goal. It is stated that the attack are believed to be state-sponsored, which
 clearly has a political focus to embarrass or compromise the individual. The
 prime minister stated himself that: "I don’t know what the attackers were hoping
 to find. Perhaps they were hunting for some dark state secret, or at least
-something to embarrass me."
+something to embarrass me." 
+Source_
 
-.. Source: https://www.theverge.com/2018/7/20/17594578/singapore-health-data-hack-sing-health-prime-minister-lee-targeted
+.. _Source: https://www.theverge.com/2018/7/20/17594578/singapore-health-data-hack-sing-health-prime-minister-lee-targeted
+
+
 
 In Norway, we had the hack on "Helse sør-øst", in which attackers outside Norway
 gained access to the database systems, which held all of the personal
@@ -46,8 +49,8 @@ obtained patients medical records. One of this records belongs to a local
 politician, who it turns out had tested positive for Covid-19. The intention are
 not known, however information like this can be used to weaken peoples opinion
 about others.
-
-.. Source: https://www.theolivepress.es/spain-news/2020/04/17/teenage-hacker-arrested-in-madrid-for-hacking-medical-data-and-leaking-information-about-a-politician-who-was-positive-with-coronavirus/
+Source_
+.. _Source: https://www.theolivepress.es/spain-news/2020/04/17/teenage-hacker-arrested-in-madrid-for-hacking-medical-data-and-leaking-information-about-a-politician-who-was-positive-with-coronavirus/
 
 
 Financially motivated
