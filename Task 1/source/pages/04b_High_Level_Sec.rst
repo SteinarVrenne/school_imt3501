@@ -19,5 +19,6 @@ Further detailed analyzis, indexing and prioritization will take place in the ne
   - OS and Software should be updated.
   - A system administrators access shall be terminated upon resignation.
   - The system should not be accessible outside Norwegian borders.
-
+  - The system needs to follow the application-messaging standards set fourth by Directorate of e-health.
+  - The system needs to allow users to access their information as described in the potential drivers section.
 .. Source: https://safecomputing.umich.edu/information-security-requirements
