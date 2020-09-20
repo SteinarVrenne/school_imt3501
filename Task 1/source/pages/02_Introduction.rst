@@ -15,6 +15,7 @@ Assumptions
 -----------
    - We assume that this solution will take place in Norway and according to
      Norwegian laws and policies.
+   - We assume the company requres the use of a secure development framework. 
 
 Identifying business goals
 --------------------------
@@ -51,4 +52,4 @@ Definitions
    - **GP:** General Practitioner.
    - **DB/DBMS:** Database and database management system.
    - **SR:** Security Requirement.
-   - **GDPR:** General Data Protection Regulation. 
+   - **GDPR:** General Data Protection Regulation.
