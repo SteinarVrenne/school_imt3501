@@ -1,10 +1,10 @@
 Introduction
 ============
 
-This paper covers a fictional case study for an "Out-patient healthcare
+This paper covers a fictional case study for an "out-patient healthcare
 monitoring system" to be used between healthcare workers and their patients and
 is the first mandatory delivery for IMT3501 - Software Security at NTNU Gjøvik
-fall 2020. Firstly, we will cover some assumptions regarding this project. Based
+fall 2020. First, we will state some assumptions regarding this project. Based
 on our assumptions, we will identify core business goals for the organization in
 order to define a scope for the system.
 
@@ -24,29 +24,29 @@ Assumptions and clarifications
 Identifying business goals
 --------------------------
 
-The Out-patient Healthcare Monitoring system wish to build a healthcare
-monitoring system for patients that are discarded and returned home from the
-organization. This way healthcare workers might watch and followup on their
-patients health status. It is also important for the business that the patients
-to be able to communicate with the healthcare workers in order to update their
-current situations. To ensure correct patient information at all times,
+The goal of the Out-patient Healthcare Monitoring system is to build a healthcare
+monitoring system for patients that are discharged and have returned home from the
+organization. This way healthcare workers can monitor and follow up on their
+patients' health status. It is also important for the business that the patients
+can communicate with the healthcare workers in order to update them on their
+current status. To ensure correct patient information at all times,
 healthcare workers should be able to find and edit their information through the
 system.
 
-As this system processes a lot of sensitive personal information, secure storing
+As this system processes a lot of sensitive personal information, secure storage
 and data transfer is of importance for the healthcare organization. System
-actors should be able to use the system with trust and confidence, thus
+actors should be able to use the system with trust and confidence. Thus
 retaining the confidentiality of user information is a high priority for the
 organization. It is also important that healthcare workers are able to update
 information about patients effectively, so that the organization ensures
 preservation of integrity regarding "basic healthcare information". Failing to
-do so might cause serious trouble for patients in a medical manner.
+do so may cause serious trouble for patients in a medical manner.
 
-In order to followup discarded patients correctly, it is important to ensure
-system availability. Discarded patients should be able to reach the healthcare
-organization without troubles. Failing to do so might lessen precious time in a
-possible serious health situation. The organization wants to ensure that newly
-discarded patients especially, feels safe through a stable and available system.
+In order to follow up discharged patients correctly, ensuring
+system availability is important. Discharged patients should be able to reach the healthcare
+organization without undue trouble. Failing to do so may consume precious time in a
+possibly critical health situation. The organization wants to ensure that newly
+discharged patients in particular feel safe by means of a stable and highly available system.
 
 Definitions
 -----------
@@ -57,7 +57,7 @@ Definitions
 
 	"**EHR**", "Electronic health record"
   "**GP**", "General Practitioner"
-  "**DB/DBMS**", "Database and database management system"
+  "**DB/DBMS**", "Database/database management system"
   "**SR**", "Security requirement"
   "**GDPR**", "General Data Protection Regulation"
   "**User**", "A user of the healthcare system is defined as either a patient (including eventual relatives), a social worker or a healthcare worker (doctors, nurses etc.)"
