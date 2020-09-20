@@ -11,8 +11,7 @@ In this section we will identify the documents that influence our security requi
 Internal
 --------
 
-
-
+We will be using the agile-version of Microsoft's Secure Development Lifecycle as we assume it is required by our company to be using a framework for our development. The use of this framework will add certain requirements, some of which will be necessary to enforce every sprint while others are only once in a while or once for the entire project. 
 
 External
 --------
@@ -52,7 +51,7 @@ Personopplysningsloven holds within it the GDPR in addition to the national adju
 * According to article 21 and 22 the subject has the right to protest our use of the data either when used for automated decisions or in profiling for marketing.
 * Article 25 states our software must by default use the most privacy friendly settings only altering them after permission is given by the subject.
 * Article 32 states that if we identify a high risk need to include pseudonymization  and cryptographic securing of personal information, as well as securing the systems confidentiality, intergrity, and availability. In the case of a techinical or physical event the system should quickly be able to return to a state where the personal information can be accesessed and managed.
-* Article 33 states that in the case of a breach of security for the personal information all users are to be informed whithin 72 hours. This response is to include the type of breach, the consequences, an aproximation of how many have been affected as well as the actions we plan to take to mitigate the consequences. All the informaiton mentioned is also to be documented for the future.   
+* Article 33 states that in the case of a breach of security for the personal information all users are to be informed whithin 72 hours. This response is to include the type of breach, the consequences, an aproximation of how many have been affected as well as the actions we plan to take to mitigate the consequences. All the informaiton mentioned is also to be documented for the future.
 
 .. - Norske lover
   .. - Kjernejournalforskriften
