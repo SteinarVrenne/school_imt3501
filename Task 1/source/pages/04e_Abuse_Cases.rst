@@ -162,7 +162,7 @@ Attacks
 	"Countermeasures", "Encrypting data in traffic via TLS, and not using insecure data transfer or configuration protocols."
 
 .. csv-table::
-	:header: **AC - **, **Description**
+	:header: **AC - Privilege escalation**, **Description**
 	:widths: 3, 10
 
 	"Actor", "Hacker"
