@@ -8,13 +8,13 @@ into two groups, based on their intentions: financally motivated, and
 information gathering
 
 Information gathering
-~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 Within this information gathering part, I will divide the attacker profiles into
 two main categories:
 
-* Foreign countries 
-
+Foreign countries 
+~~~~~~~~~~~~~~~~~~~
 National state that want so abuse the health situation of an individual, in
 order to gain information or power. They have a lot of resources, funding, and
 knowledge, which makes a real threat to any platform, including ours. There are
@@ -36,7 +36,8 @@ gained access to the database systems, which held all of the personal
 information. It is not clear what information which were extracted from the servers,
 although the one thing we know, is that a state actor were behind.
 
-* Individuals or groups 
+Individuals or groups 
+~~~~~~~~~~~~~~~~~~~~~
 
 Someone that want so know a public figures health record. Maybe expose something
 that is not publicly know, in order to change peoples opinion of that person. In
@@ -50,21 +51,22 @@ about others.
 
 
 Financially motivated
-~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 On the dark web, health records are worth a fortune. One patients record can
 sell for sometimes the amount of $1000, as of how much information the record
 contains, which can be as much as:
-- Full name
-- Data of birth
-- Education
-- Social security number
-- email
-- Credit card information
-- Address
-- Prescriptions
-- Phone number
-- Insurance details
+
+    - Full name
+    - Data of birth
+    - Education
+    - Social security number
+    - Email
+    - Credit card information
+    - Address
+    - Prescriptions
+    - Phone number
+    - Insurance details
 
 With this information, a potential buyer are able to take loans under the
 persons name or purchase drugs. The attackers who are financially motivated, are
