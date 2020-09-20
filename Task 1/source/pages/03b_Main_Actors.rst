@@ -8,13 +8,13 @@ The social worker and family member patient actors will use the application to c
 .. 
    Possibly write about device actors -- the ones that collect data in patient homes
 
-Next are the healthcare actors, this consists of nurses, General Practitioners (GP), pharmacists and other healthcare professionals the patient need conact with. The healthcare actors will be registered by the system administrators. The healthcare actors use the system mainly to contact and be contacted by their assigned patients, and read vitals information being sent to the system by remote equipment at patients home. This information is, but not limited to, blood pressure, sugar levels and heartbeat. Healthcare actors are then expected to process this information and give feedback or course of action for the patient.
+Next are the healthcare actors, this consists of nurses, General Practitioners (GP), pharmacists and other healthcare professionals the patient need conact with. The healthcare actors will be registered by the system administrators. The healthcare actors use the system mainly to contact and be contacted by their assigned patients, and read vitals information being sent to the system by remote equipment at patients home. This information is, but not limited to, blood pressure, sugar levels and heartbeat. Healthcare actors are then expected to process this information and give feedback and/or course of action for the patient.
 
 .. Should it be with?
    They may also set up group sessions with other healthcare professionals and the patient for a more thorough examination 
    They may also use the system to contact other HCP
 
-Last are the system administrators. The system administrators are responsible for everything to do with the platform. Their role is critical for the website/platform to be up. Their most important task is to make sure that the platform is working at all time, especially when most of the health care workers are at work. The other main IT operation the sysadmins have to deal with is making sure that the servers have enough system resources, and scaling the processing power and storage according the the user needs. Besides maintenance they have the important task of registration of health care workers on the platform. Making sure that they write the correct name, email, and ID. They could also look up the person in the public register of healthcare workers called HPR (Helsepersonellregisteret). Within security, the sysadmins have the responsibility of ensuring that the security of the platform meet the specified requirements. They may do this themselves, or hire consultants to help them with hardening the security. When it comes to the implementation part of software development life cycle, the sysadmins would be responsible of testing the bug fixes, and new features implemented.
+Last are the system administrators. The system administrators are responsible for everything to do with the platform. Their role is critical for the website/platform to be up. Their most important task is to make sure that the platform is working at all time, especially when most of the health care workers are at work. The other main IT operation the system administrators have to deal with is making sure that the servers have enough system resources, and scaling the processing power and storage according the the user needs. Besides maintenance they have the important task of registration of health care workers on the platform. Making sure that they write the correct name, email, and ID. They could also look up the person in the public register of healthcare workers called HPR (Helsepersonellregisteret). Within security, the system administrators have the responsibility of ensuring that the security of the platform meet the specified requirements. They may do this themselves, or hire consultants to help them with hardening the security. When it comes to the implementation part of software development life cycle, the system administrators would be responsible of testing the bug fixes, and new features implemented.
 
 
 .. IGNORE BELOW!!!!!
@@ -49,16 +49,16 @@ Last are the system administrators. The system administrators are responsible fo
          platform. Their role is critical for the website/platform to be up.
          Their most important task is to make sure that the platform is working
          at all time, especially when most of the health care workers are at
-         work. The other main IT operation the sysadmins have to deal with is
+         work. The other main IT operation the system administrators have to deal with is
          making sure that the servers have enough system resources, and scaling
          the processing power and storage according the the user needs. Besides
          maintenance they have the important task of registration of health care
          workers on the platform. Making sure that they write the correct name,
          email, and ID. They could also look up the person in the public
          register of healthcare workers called HPR (Helsepersonellregisteret).
-         Within security, the sysadmins have the responsibility of ensuring that
+         Within security, the system administrators have the responsibility of ensuring that
          the security of the platform meet the specified requirements. They may
          do this themselves, or hire in consultants to help them with hardening
          the security. When it comes to the implementation part of software
-         development life cycle, the sysadmins would be responsible of testing
+         development life cycle, the system administrators would be responsible of testing
          the bug fixes, and new features implemented.
