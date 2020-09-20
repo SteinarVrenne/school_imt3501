@@ -27,10 +27,8 @@ goal. It is stated that the attack are believed to be state-sponsored, which
 clearly has a political focus to embarrass or compromise the individual. The
 prime minister stated himself that: "I don’t know what the attackers were hoping
 to find. Perhaps they were hunting for some dark state secret, or at least
-something to embarrass me." 
-Source_
+something to embarrass me." [1]_
 
-.. _Source: https://www.theverge.com/2018/7/20/17594578/singapore-health-data-hack-sing-health-prime-minister-lee-targeted
 
 
 
@@ -48,10 +46,8 @@ april, a 16 year old boy in Madrid hacked into the health service records, and
 obtained patients medical records. One of this records belongs to a local
 politician, who it turns out had tested positive for Covid-19. The intention are
 not known, however information like this can be used to weaken peoples opinion
-about others.
-Source_
+about others. [2]_
 
-.. _Source: https://www.theolivepress.es/spain-news/2020/04/17/teenage-hacker-arrested-in-madrid-for-hacking-medical-data-and-leaking-information-about-a-politician-who-was-positive-with-coronavirus/
 
 
 Financially motivated
@@ -77,3 +73,6 @@ persons name or purchase drugs. The attackers who are financially motivated, are
 individuals or groups who seek to earn quick and easy money. They don't use the
 most advanced methods of gaining access to the systems, because hospitals
 usually don't have a good security policy.
+
+.. [1] https://www.theverge.com/2018/7/20/17594578/singapore-health-data-hack-sing-health-prime-minister-lee-targeted
+.. [2] https://www.theolivepress.es/spain-news/2020/04/17/teenage-hacker-arrested-in-madrid-for-hacking-medical-data-and-leaking-information-about-a-politician-who-was-positive-with-coronavirus/
