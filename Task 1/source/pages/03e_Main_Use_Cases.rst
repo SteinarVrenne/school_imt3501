@@ -1,15 +1,15 @@
 Identify and specify the main use cases of the system
 -----------------------------------------------------
 
-The Use Cases for this system is mainly performed by 4 main actors, Healthcare worker, System administrator, Patient-at-home devices and the Patient actor. The Patient actor is an abstraction for social workers and family members, whom function the same as a Patient actor. Patient-at-home devices are typically devices stationed at a patients home that will continually deliver data to the system about the patients vitals, such as blood sugar, blood pressure etc.. 
+The Use Cases for this system is mainly performed by 4 main actors, Healthcare worker, System administrator, Patient-at-home devices and the Patient actor. The Patient actor is an abstraction for social workers and family members, whom function the same as a Patient actor. Patient-at-home devices are typically devices stationed at a patients home that will continually deliver data to the system about the patients vitals, such as blood sugar, blood pressure etc..
 
-There is also the Use Cases of general tasks that needs to be done, for example when System Administrator needs access to the system to do maintenance work or manage and configure for eventual new needs. These are tasks, but not limited to, such as configuring new software, updating existing software, redistribution of available resources etc.. 
+There is also the Use Cases of general tasks that needs to be done, for example when System Administrator needs access to the system to do maintenance work or manage and configure for eventual new needs. These are tasks, but not limited to, such as configuring new software, updating existing software, redistribution of available resources etc..
 
-The diagram below represents the main use cases we have identified for this system. 
+The diagram below represents the main use cases we have identified for this system.
 
-.. Use case diagram 
+.. Use case diagram
 
-.. image:: ../images/UseCaseDiagram.svg
+.. image:: ../images/UseCaseDiagram.png
 
 .. Use case Tables
 
@@ -39,11 +39,11 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	2. Credentials are sent to authentication server 
 	3. Healthcare worker is logged in"
 	"Side flow", "
-	3.1 Healthcare worker accesses the EHR 
+	3.1 Healthcare worker accesses the EHR
 
-	3.2 Healthcare worker gets the data he needs 
-	
-	3.1 Healthcare worker requests a patient vitals from the system 
+	3.2 Healthcare worker gets the data he needs
+
+	3.1 Healthcare worker requests a patient vitals from the system
 
 	3.2 Healthcare worker gets the required data from the system"
 	"Deviations", "1.1 Healthcare worker provides wrong credentials and is shown error message, is denied access to the system"
@@ -130,5 +130,5 @@ The tables below are detailed descriptions of some of the flows in the Use Case 
 	3. Actor is finished and system terminates connection"
 	"Side flow", ""
 	"Deviations", "1.1 A connection could not be established
-	
+
 	1.2 Error is logged on device and will try to connect again at next interval"
