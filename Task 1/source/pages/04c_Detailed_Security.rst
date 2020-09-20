@@ -158,7 +158,7 @@ SR.10 - Inactive user sessions should terminate
   should be terminated in order to mitigate the risk of session cookies being stolen.
 
 
-SR.11 - Logfiles needs to be detailed
+SR.11 - Logfiles need to be detailed
 """""""""""""""""""""""""""""""""""""
 
 | **Requirement categories:** Accountability.
