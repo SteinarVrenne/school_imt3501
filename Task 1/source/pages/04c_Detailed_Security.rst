@@ -1,5 +1,5 @@
 Detailed security requirements specification
-============================================
+--------------------------------------------
 
 In this part, we will cover the details of our security requirements specification process.
 Our specified requirements will be indexed and ordered in the manner of importance.
@@ -8,7 +8,7 @@ In addition, the requirement will be tied to a category and related system asset
 These categories are defined below.
 
 Requirement categories
-----------------------
+""""""""""""""""""""""
 
 These categories highlights what the different security requirements are related to.
 We have elaborated on these categories in order to concretize the different SR aspects.
@@ -31,7 +31,7 @@ We have elaborated on these categories in order to concretize the different SR a
 
 
 Security Mechanisms
--------------------
+"""""""""""""""""""
 
 In order to elaborate on why the specific security requirements are necessary,
 we decided to include some security mechanisms. These mechanisms tell us what
@@ -51,10 +51,10 @@ security mechanisms along with corresponding definitions.
 
 
 Detailed security requirements
-------------------------------
+""""""""""""""""""""""""""""""
 
 SR.01 - Data should be stored encrypted
-"""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Confidentiality, Privacy.
 | **Security Mechanism:** Mitigate.
@@ -65,7 +65,7 @@ SR.01 - Data should be stored encrypted
 
 
 SR.02 - Authorized users only should be able to access patient information
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Integrity, confidentiality, authorization, privacy.
 | **Security Mechanism:** Prevention.
@@ -75,7 +75,7 @@ SR.02 - Authorized users only should be able to access patient information
 
 
 SR.03 - System monitoring should be present at all times
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Availability, intrusion, accountability.
 | **Security Mechanism:** Detection.
@@ -85,7 +85,7 @@ SR.03 - System monitoring should be present at all times
 
 
 SR.04 - OS and Software should be updated
-"""""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Integrity, immunity.
 | **Security Mechanism:** Mitigation.
@@ -96,7 +96,7 @@ SR.04 - OS and Software should be updated
 
 
 SR.05 - Encrypted backups are required.
-"""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Confidentiality, secure maintenance.
 | **Security Mechanism:** Response.
@@ -106,7 +106,7 @@ SR.05 - Encrypted backups are required.
 
 
 SR.06 - Passwords should be hashed
-""""""""""""""""""""""""""""""""""
+''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Confidentiality.
 | **Security Mechanism:** Mitigation.
@@ -117,7 +117,7 @@ SR.06 - Passwords should be hashed
 
 
 SR.07 - Web-application communication needs to be encrypted
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Confidentiality, immunity.
 | **Security Mechanism:** Prevent.
@@ -128,7 +128,7 @@ SR.07 - Web-application communication needs to be encrypted
 
 
 SR.08 - Two-factor authentication is required
-"""""""""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Integrity, identification & authentication.
 | **Security Mechanism:** Prevention.
@@ -139,7 +139,7 @@ SR.08 - Two-factor authentication is required
 
 
 SR.09 - Prohibit short passwords
-""""""""""""""""""""""""""""""""
+''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Identification & authentication.
 | **Security Mechanism:** Mitigate.
@@ -149,7 +149,7 @@ SR.09 - Prohibit short passwords
 
 
 SR.10 - Inactive user sessions should terminate
-"""""""""""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Availability, identification & authentication
 | **Security Mechanism:** Mitigation.
@@ -159,7 +159,7 @@ SR.10 - Inactive user sessions should terminate
 
 
 SR.11 - Logfiles need to be detailed
-"""""""""""""""""""""""""""""""""""""
+''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Accountability.
 | **Security Mechanism:** Detection.
@@ -169,7 +169,7 @@ SR.11 - Logfiles need to be detailed
 
 
 SR.12 - Cancellation of system admins access rights
-"""""""""""""""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Integrity, secure maintenance, immunity, authorization, authentication.
 | **Security Mechanism:** Prevention.
@@ -179,7 +179,7 @@ SR.12 - Cancellation of system admins access rights
 
 
 SR.13 - The system should not be accessible outside Norwegian borders
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 | **Requirement categories:** Availability, identification & authentication, intrusion detection.
 | **Security Mechanism:** Prevention.

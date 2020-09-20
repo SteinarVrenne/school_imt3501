@@ -1,5 +1,5 @@
 Security Requirement Specification
-==================================
+----------------------------------
 
 Below is a list of our specified security requirements. This list just highlights the specified requirements.
 Further detailed analyzis, indexing and prioritization will take place in the next section.

@@ -1,5 +1,5 @@
 High-Level System Architecture
-==============================
+------------------------------
 
 .. image:: ../images/architecture-test.png
 
