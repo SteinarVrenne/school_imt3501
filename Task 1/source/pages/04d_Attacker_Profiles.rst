@@ -62,6 +62,7 @@ contains, which can be as much as:
 - email
 - Credit card information
 - Address
+- Prescriptions
 - Phone number
 - Insurance details
 
