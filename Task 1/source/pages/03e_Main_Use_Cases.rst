@@ -9,7 +9,7 @@ The diagram below represents the main use cases we have identified for this syst
 
 .. Use case diagram
 
-.. image:: ../images/UseCaseDiagram.png
+.. image:: ../images/UseCaseDiagram.svg
 
 .. Use case Tables
 
