@@ -11,11 +11,15 @@ order to define a scope for the system.
 Furthermore, functional specifications for our case will be defined, followed by
 a more in-depth security requirements specification process.
 
-Assumptions
------------
+Assumptions and clarifications
+------------------------------
    - We assume that this solution will take place in Norway and according to
      Norwegian laws and policies.
-   - We assume the company requres the use of a secure development framework.
+   - We assume the company requires the use of a secure development framework.
+   - We are aware that our security requirement specification might not cover everything
+     in the field. Our requirement specification just touches the surface of the necessities
+     needed in such a real-world project. We have tried finding the most relevant and
+     important requirements for the scope and time limitations of our case.
 
 Identifying business goals
 --------------------------
@@ -47,9 +51,6 @@ discarded patients especially, feels safe through a stable and available system.
 Definitions
 -----------
 
-Terminology
------------
-
 .. csv-table::
   :header: **Term**, **Definition**
   :widths: 15, 40
@@ -59,3 +60,4 @@ Terminology
   "**DB/DBMS**", "Database and database management system"
   "**SR**", "Security requirement"
   "**GDPR**", "General Data Protection Regulation"
+  "**User**", "A user of the healthcare system is defined as either a patient (including eventual relatives), a social worker or a healthcare worker (doctors, nurses etc.)"
