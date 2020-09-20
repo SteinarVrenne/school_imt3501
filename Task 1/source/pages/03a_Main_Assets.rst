@@ -36,9 +36,9 @@ This is how we prioritize the identified assets in terms of confidentiality, int
 	"Logs (metadata, eventlogs, etc.)", "Low", "Medium", "High", "Medium (M)"
 	"Configuration data", "Medium", "High", "Low", "Medium (M)"
 	"System software", "High", "High", "High", "High (H)"
-	"Science data", "Low", "Medium", "Low", "Low (L)"
-	"EHR", "Medium", "High", "High", "High (H)"
-	"User data (e.g. full name, SSN)", "High", "High", "Low", "Medium (M)"
+	"Science data", "Low", "Medium", "Low", "Low (L)" 
+	"EHR (Electronic Health Register", "Medium", "High", "High", "High (H)"
+	"User data (e.g. date-of-birth, ID)", "High", "High", "Low", "High (H)"
 	"Patient vitals (e.g. blood pressure)", "High", "High", "High", "High (H)"
 
 .. \* Access to, for example, the webservers "robot.txt" (which can give information about file hierarchy) will most likely only be used for reconnaissance.
