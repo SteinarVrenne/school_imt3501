@@ -1,6 +1,7 @@
 Main Assets
-===========
 The main assets we have identified are crucial for the organization/hospital and is relevant to the task. First, we have the different hardware servers and the data they generate. These assets are the webserver, database server, authentication server and system, and internal servers. 
+-----------
+
 
 The webserver is responsible for most of the traffic between clients on the application. As the webserver is first point of contact for a user, it is important to keep it secure. The database server contains on-site science data and data necessary for the hospitals administration. The authentication server and system is responsible for validating users who want to use the application and authorization server to authorize resource access, a tampered authentication or authorization server compromises all of the hospitals security. Lastly we have the internal servers, which handle internal traffic (e.g. contacting a printer), research processing and internet on the premise.
 

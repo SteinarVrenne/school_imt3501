@@ -1,5 +1,6 @@
-Potentail Drivers
-=================
+Potential Drivers
+-----------------
+
 ..  a. Identify the potential external and internal drivers for the security requirements
 In this section we will identify the documents that influence our security requirements. According to Datatilsynet will the norwegian "personopplysningsloven" cover all requirements from the GDPR in addition to the national adjustments the GDPR allows nations to perform. This is why it is not mentioned explicitly furher down in the document.
 
