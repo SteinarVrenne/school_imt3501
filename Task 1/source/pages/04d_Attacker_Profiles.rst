@@ -2,7 +2,7 @@ Identify and specify the main potential attacker profiles who would attack the s
 -------------------------------------------------------------------------------------
 
 A website with a lot of personal information, and health records like this could
-potentially attract a lot of attention from state nations, as well as individuals who
+potentially attract a lot of attention from nation states, as well as individuals who
 wants to know a persons health status. We can divide the potential attackers
 into two groups, based on their intentions: financially motivated, and
 information gathering
@@ -13,17 +13,17 @@ Information gathering
 Within this information gathering part, I will divide the attacker profiles into
 two main categories:
 
-Foreign countries 
-~~~~~~~~~~~~~~~~~~~
-National state that want so abuse the health situation of an individual, in
+State actors
+~~~~~~~~~~~~
+Nation state that want to abuse the health situation of an individual, in
 order to gain information or power. They have a lot of resources, funding, and
-knowledge, which makes a real threat to any platform, including ours. There are
-multiple occurrences where foreign countries / nation states have targeted other
+knowledge, which makes them a real threat to any platform, including ours. There are
+multiple occurrences where nation states have targeted other
 countries health care records. One good example of this was in 2018, a total of
 1.5 million people were affected by an attack on Singapore’s health data.
 Medical prescriptions for 160,000 persons were stolen, including the
 prescriptions to the prime minister, Lee Hsien Loong, how was the attackers main
-goal. It is stated that the attack are believed to be state-sponsored, which
+target. "The Verge" is stated that the attack is believed to be state-sponsored, which
 clearly has a political focus to embarrass or compromise the individual. The
 prime minister stated himself that: "I don’t know what the attackers were hoping
 to find. Perhaps they were hunting for some dark state secret, or at least
@@ -33,18 +33,18 @@ something to embarrass me." [1]_
 
 
 In Norway, we had the hack on "Helse sør-øst", in which attackers outside Norway
-gained access to the database systems, which held all of the personal
-information. It is not clear what information which were extracted from the servers,
-although the one thing we know, is that a state actor were behind.
+gained access to the database systems which held all of the personal
+information. It is not clear what information was extracted from the servers,
+although the one thing we do know, is that a state actor was behind it.
 
-Individuals or groups 
+Individuals or groups
 ~~~~~~~~~~~~~~~~~~~~~
 
-Someone that want so know a public figures health record. Maybe expose something
-that is not publicly know, in order to change peoples opinion of that person. In
-april, a 16 year old boy in Madrid hacked into the health service records, and
-obtained patients medical records. One of this records belongs to a local
-politician, who it turns out had tested positive for Covid-19. The intention are
+Someone that want so know a public figure's health record. Maybe expose something
+that is not publicly known, in order to change people's opinion of that person. In
+April, a 16 year old boy in Madrid hacked into the health service records, and
+obtained patients medical records. One of these records belonged to a local
+politician, who it turned out had tested positive for Covid-19. The intention were
 not known, however information like this can be used to weaken peoples opinion
 about others. [2]_
 
