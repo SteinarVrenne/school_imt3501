@@ -15,7 +15,7 @@ Assumptions
 -----------
    - We assume that this solution will take place in Norway and according to
      Norwegian laws and policies.
-   - We assume the company requres the use of a secure development framework. 
+   - We assume the company requres the use of a secure development framework.
 
 Identifying business goals
 --------------------------
@@ -36,8 +36,7 @@ retaining the confidentiality of user information is a high priority for the
 organization. It is also important that healthcare workers are able to update
 information about patients effectively, so that the organization ensures
 preservation of integrity regarding "basic healthcare information". Failing to
-do so might cause serious trouble for patients in a medical manner. (Vi burde
-kanskje ha noe policies på dette (?))
+do so might cause serious trouble for patients in a medical manner.
 
 In order to followup discarded patients correctly, it is important to ensure
 system availability. Discarded patients should be able to reach the healthcare
@@ -48,8 +47,15 @@ discarded patients especially, feels safe through a stable and available system.
 Definitions
 -----------
 
-   - **EHR:** Electronic health record.
-   - **GP:** General Practitioner.
-   - **DB/DBMS:** Database and database management system.
-   - **SR:** Security Requirement.
-   - **GDPR:** General Data Protection Regulation.
+Terminology
+-----------
+
+.. csv-table::
+  :header: **Term**, **Definition**
+	:widths: 15, 40
+
+	"**EHR**", "Electronic health record"
+  "**GP**", "General Practitioner"
+  "**DB/DBMS**", "Database and database management system"
+  "**SR**", "Security requirement"
+  "**GDPR**", "General Data Protection Regulation"

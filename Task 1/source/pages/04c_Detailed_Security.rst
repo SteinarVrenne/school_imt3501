@@ -1,11 +1,43 @@
 Detailed security requirements specification
---------------------------------------------
+============================================
 
 In this part, we will cover the details of our security requirements specification process.
 Our specified requirements will be indexed and ordered in the manner of importance.
 To elaborate further on each requirement, it will be described a little more detailed.
-In addition, the requirement will also be tied up to a class, category and related system assets.
-These are defined in the "Definitions" section.
+In addition, the requirement will also be tied up to a category and related system assets.
+These are defined below.
+
+Requirement categories
+----------------------
+
+These categories highlights what the different security requirements are related to.
+We have elaborated on these categories in order to concretize the different SR aspects.
+
+.. csv-table::
+  :header: **Category**, **Explanation**
+  :widths: 15, 35
+
+  "Confidentiality", "Ensuring that sensitive data is only accessible and exposed to authorized users."
+  "Integrity", "Ensuring that information is correct and complete."
+  "Availability", "Ensuring that a system, it's components, resources and assets can be accessed when intended to."
+  "Identification and authentication", "Ensures correct identification and verification of system users and applications."
+  "Authorization", "Ensures that information is exposed to users and applications with corresponding privileges only."
+  "Immunity", "Ensures prevention of unauthorized code or programs from infecting the system."
+  "Intrusion detection", "Ensures detection of intrusion attempts into the system."
+  "Accountability", "Ensures auditing and monitoring of security related events, described with related assets, timestamps, event type and an unique ID."
+  "Secure maintenance", "Ensure secure maintenance and operations such as configuration files and backup processes."
+  "Privacy", "Ensures rules and regulations related to privacy."
+
+
+
+Security Mechanisms
+-------------------
+
+
+
+
+Detailed security requirements
+------------------------------
 
 SR.01 - Data should be securely stored
 """"""""""""""""""""""""""""""""""""""
