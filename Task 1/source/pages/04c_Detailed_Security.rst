@@ -4,7 +4,7 @@ Detailed security requirements specification
 In this part, we will cover the details of our security requirements specification process.
 Our specified requirements will be indexed and ordered in the manner of importance.
 To elaborate further on each requirement, it will be described a little more detailed.
-In addition, the requirement will also be tied up to a category and related system assets.
+In addition, the requirement will be tied to a category and related system assets.
 These categories are defined below.
 
 Requirement categories
