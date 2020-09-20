@@ -51,3 +51,4 @@ Definitions
    - **GP:** General Practitioner.
    - **DB/DBMS:** Database and database management system.
    - **SR:** Security Requirement.
+   - **GDPR:** General Data Protection Regulation. 
