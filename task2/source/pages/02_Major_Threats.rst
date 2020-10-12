@@ -33,24 +33,53 @@ order to specify the  The STRIDE methodology is defined as followed:
   "**D - Denial of Service**", "Preventing a system from providing a service or preventing users to access it.", "Availability"
   "**E - Elevation of privileges**", "Refers to situations where you are able to perform actions you are not supposed to.", "Authorization"
 
+
 System and data confidentiality threats
 ---------------------------------------
+- IdC: Sensitive user data is sent in cleartext over the network.
+- IdC: Invalid user input exploits the database. (Form validation)
+- External, abnormal requests reaches internal services outside of DMZ.
+- Sensitive patient information is leaked to the public as a result of a data breach.
+- Password hashes are leaked to the public as a result of a databreach.
 
-To deler av systemet: Kan man spoofe/tampere etc. mellom klient og server?
-Hvordan
 
-Tabell: TR-ID, Trussel, Aktør
-
-
-- An unauthorized user has access to confidential patient information.
-- Sysadmin rights are not terminated upon resignation.
-- Sensitive user data is sent in cleartext over the network.
-- Invalid user input exploits the database. (Form validation)
-- System monitoring fails and creates a gap in the logs.
+System and data integrity threats
+---------------------------------
 - System software is out of date and exploitable.
-- External, abnormal requests reaches internal services outside of DMZ
-- An external user elevates his/hers privileges to perform unauthorized actions.
+- Internal user modifies patient info, resulting in uncorrect information.
+
+
+System and data availability threats
+------------------------------------
+- DoS: System monitoring fails and creates a gap in the logs.
+- The system is inaccessible because of too much incoming requests.
+
+
+
+Authentication threats for system eligible users
+------------------------------------------------
 - Opportunist steals a logged in users cookie to access unauthorized information.
 - External user spoofs email address to harvest credentials through phising.
-- Internal user modifies patient info, resulting in uncorrect information.
-- 
+
+
+
+Authorization threats for system eligible users
+-----------------------------------------------
+
+- IdC: An unauthorized user has access to confidential patient information.
+- EoP: Sysadmin rights are not terminated upon resignation.
+- An internal user elevates his/hers privileges to perform unauthorized actions.
+
+
+
+Non-repudiation threats for system eligible users
+-------------------------------------------------
+
+
+
+
+
+
+  .. To deler av systemet: Kan man spoofe/tampere etc. mellom klient og server?
+
+Tabell: TR-ID, Trussel, Aktør, Element
