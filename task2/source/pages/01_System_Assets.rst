@@ -10,7 +10,7 @@ System assets
 
     - Does your system access/use/share assets with/ to other third party.
 
-From task 1 we identified the following assets in the system: "Authentication and Authorization Server", "Database Server", "Webserver", "Internal Servers", "Authenticative data", "Cookies (from webserver)", "Logs (metadata, eventlogs, etc.)", "Configuration data", "System software", "Science data", "EHR (Electronic Health Register", "User data (e.g. date-of-birth, ID)", "Patient vitals (e.g. blood pressure)".
+From task 1 we identified the following assets in the system: "1. Authentication and Authorization Server", "2. Database Server", "3. Webserver", "4. Internal Servers", "5. Authenticative data", "6. Cookies (from webserver)", "7. Logs (metadata, eventlogs, etc.)", "8. Configuration data", "9. System software", "10. Science data", "11. EHR (Electronic Health Register", "12. User data (e.g. date-of-birth, ID)", "13. Patient vitals (e.g. blood pressure)".
 
 First, we have the different hardware servers and the
 data they generate. These assets are the web server, database server,
@@ -32,11 +32,7 @@ data from the web server, and configuration files and software that needs to be
 kept safe on the internal servers. The software the hospital needs varies over
 time, but will always be hosted on internal servers.
 
-The Electronic Health Registry (EHR) is also vital to the organization. A
-disruption in this tool will prevent the healthcare personnel from doing their
-work and help their patients. Even though this is handled off-site, it is
-important that it is available and data is not tampered with on the way to the
-requesting user.
+The Electronic Health Registry (EHR) is also vital to the organization. It is a third party asset, which the system acceses and uses. A disruption in this tool will prevent the healthcare personnel from doing their work and help their patients. Even though this is handled off-site, it is important that it is available and data is not tampered with on the way to the requesting user. Tampering or false data can lead to loss of life in patient, by for example administering the wrong amount of medication.
 
 Patients must input sensitive data, such as their national identification
 number, name, date of birth, contact details and basic health information. This
@@ -57,15 +53,11 @@ look into what happened, and is necessary for when something goes wrong. The
 logs may be disrupted, e.g. during an attack if the attacker tries to erase
 logs, in an effort to cover their tracks to make the forensic work take longer.
 
-To rank the identified assets we found, we use the United States National
-Institute of Standards and Technology asset ranking to rank our assets (NIST
-800-18): 
+To rank the identified assets we found, we use the United States Institute of Standards and Technology asset ranking to rank our assets (NIST 800-18):  
 
 .. image:: ../images/NIST_AssetRanking.PNG
 
 Source: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf; 19.09-2020.
-
-The EHR register is a third party asset to the organization. The system accesses the EHR, and is dependent on that the information in the EHR is correct. 
 
 This is how we prioritize the identified assets in terms of confidentiality,
 integrity and availability. They are given a "low", "moderate", or "high" score
@@ -77,19 +69,19 @@ confidentiality, integrity and availability.
 	:header: **Asset**, **Confidentiality**, **Integrity**, **Availability**, **Score**
 	:widths: 50, 15, 15, 15, 15
 
-	"Authentication and Authorization Server", "High", "High", "High", "High (H)"
-	"Database Server", "Low", "High", "Medium", "Medium (M)"
-	"Webserver", "Low", "High", "High", "Medium (M)"
-	"Internal Servers", "High", "High", "Low", "Medium (M)"
-	"Authenticative data", "High", "High", "High", "High (H)"
-	"Cookies (from webserver)", "Low", "Low", "Low", "Low (L)"
-	"Logs (metadata, eventlogs, etc.)", "Low", "Medium", "High", "Medium (M)"
-	"Configuration data", "Medium", "High", "Low", "Medium (M)"
-	"System software", "High", "High", "High", "High (H)"
-	"Science data", "Low", "Medium", "Low", "Low (L)"
-	"EHR (Electronic Health Register)", "Medium", "High", "High", "High (H)"
-	"User data (e.g. date-of-birth, ID)", "High", "High", "Low", "High (H)"
-	"Patient vitals (e.g. blood pressure)", "High", "High", "High", "High (H)"
+	"1. Authentication and Authorization Server", "High", "High", "High", "High (H)"
+	"2. Database Server", "Low", "High", "Medium", "Medium (M)"
+	"3. Webserver", "Low", "High", "High", "Medium (M)"
+	"4. Internal Servers", "High", "High", "Low", "Medium (M)"
+	"5. Authenticative data", "High", "High", "High", "High (H)"
+	"6. Cookies (from webserver)", "Low", "Low", "Low", "Low (L)"
+	"7. Logs (metadata, eventlogs, etc.)", "Low", "Medium", "High", "Medium (M)"
+	"8. Configuration data", "Medium", "High", "Low", "Medium (M)"
+	"9. System software", "High", "High", "High", "High (H)"
+	"10. Science data", "Low", "Medium", "Low", "Low (L)"
+	"11. EHR (Electronic Health Register)", "Medium", "High", "High", "High (H)"
+	"12. User data (e.g. date-of-birth, ID)", "High", "High", "Low", "High (H)"
+	"13. Patient vitals (e.g. blood pressure)", "High", "High", "High", "High (H)"
 
 .. \* Access to, for example, the webservers "robot.txt" (which can give information about file hierarchy) will most likely only be used for reconnaissance.
 	^^ Should stay or go?
