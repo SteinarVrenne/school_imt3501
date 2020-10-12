@@ -11,9 +11,7 @@ Welcome to Programvaresikkerhet's documentation!
    :caption: Contents:
    :glob:
 
-   pages/02_Introduction.rst
-   pages/03_root.rst
-   pages/04_root.rst
+   pages/01_root.rst
 
 
 ..
