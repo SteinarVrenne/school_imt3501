@@ -19,7 +19,8 @@ Major threats
 
 In this section, we will identify potential threats and sources for the
 Out-patient healthcare monitoring system. These threats will be identified by
-using the STRIDE model as SRIDE per threat. The STRIDE methodology is defined as followed:
+using the STRIDE model as SRIDE per threat. STRIDE is just used as a guide in
+order to specify the  The STRIDE methodology is defined as followed:
 
 .. csv-table::
   :header: **STRIDE letter**, **Definition**, **Violates**
@@ -34,3 +35,22 @@ using the STRIDE model as SRIDE per threat. The STRIDE methodology is defined as
 
 System and data confidentiality threats
 ---------------------------------------
+
+To deler av systemet: Kan man spoofe/tampere etc. mellom klient og server?
+Hvordan
+
+Tabell: TR-ID, Trussel, Aktør
+
+
+- An unauthorized user has access to confidential patient information.
+- Sysadmin rights are not terminated upon resignation.
+- Sensitive user data is sent in cleartext over the network.
+- Invalid user input exploits the database. (Form validation)
+- System monitoring fails and creates a gap in the logs.
+- System software is out of date and exploitable.
+- External, abnormal requests reaches internal services outside of DMZ
+- An external user elevates his/hers privileges to perform unauthorized actions.
+- Opportunist steals a logged in users cookie to access unauthorized information.
+- External user spoofs email address to harvest credentials through phising.
+- Internal user modifies patient info, resulting in uncorrect information.
+- 
