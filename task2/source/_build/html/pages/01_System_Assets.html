@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System assets &#8212; IMT3501 Programvaresikkerhet - Xgenic - Threat Modeling and Privacy Assessment Lab - Task 2  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="system-assets">
+<h1>System assets<a class="headerlink" href="#system-assets" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Revisit task 1 and identify and prioritize the system assets.</dt><dd><ul>
+<li><p>Sensitive and personal information.</p></li>
+<li><p>What are the most critical assets for your system. Categorize based on CIAproperties.</p></li>
+<li><p>Does your system access/use/share assets with/ to other third party.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>From task 1 we identified the following assets in the system: “1. Authentication and Authorization Server”, “2. Database Server”, “3. Webserver”, “4. Internal Servers”, “5. Authenticative data”, “6. Cookies (from webserver)”, “7. Logs (metadata, eventlogs, etc.)”, “8. Configuration data”, “9. System software”, “10. Science data”, “11. EHR (Electronic Health Register”, “12. User data (e.g. date-of-birth, ID)”, “13. Patient vitals (e.g. blood pressure)”.</p>
+<p>First, we have the different hardware servers and the
+data they generate. These assets are the web server, database server,
+authentication server and system, and internal servers.</p>
+<p>The web server is responsible for most of the traffic between clients on the
+application. As the web server is first point of contact for a user, it is
+important to keep it secure. The database server contains on-site science data
+and data necessary for the hospital’s administration. The authentication server
+and system is responsible for authenticating users who want to use the
+application and authorization server to authorize resource access. A dishonest
+authentication or authorization server will completely compromise the hospital’s
+security. Lastly we have the internal servers, which handle internal traffic
+(e.g. contacting a printer), research processing and the local intranet.</p>
+<p>All servers generate data that needs to be protected, such as the data within
+databases, keys and passwords in the authentication server, logging and user
+data from the web server, and configuration files and software that needs to be
+kept safe on the internal servers. The software the hospital needs varies over
+time, but will always be hosted on internal servers.</p>
+<p>The Electronic Health Registry (EHR) is also vital to the organization. It is a third party asset, which the system acceses and uses. A disruption in this tool will prevent the healthcare personnel from doing their work and help their patients. Even though this is handled off-site, it is important that it is available and data is not tampered with on the way to the requesting user. Tampering or false data can lead to loss of life in patient, by for example administering the wrong amount of medication.</p>
+<p>Patients must input sensitive data, such as their national identification
+number, name, date of birth, contact details and basic health information. This
+data is an asset, and the system will not function if this data has been
+disrupted, e.g. altered, is falsified or wrong. It is important this data is
+validated upon input, and kept safe from attackers at all times.</p>
+<p>Patient vitality data, i.e. measurements taken at a patient’s home and then sent
+to the system, is a vital asset to the organization. A disruption would cause a
+severe impact on the healthcare professionals’ ability to complete their tasks,
+and can cause massive damage to the hospitals’ reputation as well as carrying
+the possibility of damage to or the loss of the life of a patient.</p>
+<p>Along every step of the way for system data transport, data is logged. This
+includes metadata, for example from application traffic between two clients
+(e.g. patient and doctor), and event logs. Event logs are there to provide a
+look into what happened, and is necessary for when something goes wrong. The
+logs may be disrupted, e.g. during an attack if the attacker tries to erase
+logs, in an effort to cover their tracks to make the forensic work take longer.</p>
+<p>To rank the identified assets we found, we use the United States Institute of Standards and Technology asset ranking to rank our assets (NIST 800-18):</p>
+<img alt="../_images/NIST_AssetRanking.PNG" src="../_images/NIST_AssetRanking.PNG" />
+<p>Source: <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf">https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf</a>; 19.09-2020.</p>
+<p>This is how we prioritize the identified assets in terms of confidentiality,
+integrity and availability. They are given a “low”, “moderate”, or “high” score
+dependent on the severity a disruption to the asset will cause. The “Score”
+column is for the asset prioritization and is the common score gained by
+confidentiality, integrity and availability.</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Asset</strong></p></th>
+<th class="head"><p><strong>Confidentiality</strong></p></th>
+<th class="head"><p><strong>Integrity</strong></p></th>
+<th class="head"><p><strong>Availability</strong></p></th>
+<th class="head"><p><strong>Score</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ol class="arabic simple">
+<li><p>Authentication and Authorization Server</p></li>
+</ol>
+</td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High (H)</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="2">
+<li><p>Database Server</p></li>
+</ol>
+</td>
+<td><p>Low</p></td>
+<td><p>High</p></td>
+<td><p>Medium</p></td>
+<td><p>Medium (M)</p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple" start="3">
+<li><p>Webserver</p></li>
+</ol>
+</td>
+<td><p>Low</p></td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>Medium (M)</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="4">
+<li><p>Internal Servers</p></li>
+</ol>
+</td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>Low</p></td>
+<td><p>Medium (M)</p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple" start="5">
+<li><p>Authenticative data</p></li>
+</ol>
+</td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High (H)</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="6">
+<li><p>Cookies (from webserver)</p></li>
+</ol>
+</td>
+<td><p>Low</p></td>
+<td><p>Low</p></td>
+<td><p>Low</p></td>
+<td><p>Low (L)</p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple" start="7">
+<li><p>Logs (metadata, eventlogs, etc.)</p></li>
+</ol>
+</td>
+<td><p>Low</p></td>
+<td><p>Medium</p></td>
+<td><p>High</p></td>
+<td><p>Medium (M)</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="8">
+<li><p>Configuration data</p></li>
+</ol>
+</td>
+<td><p>Medium</p></td>
+<td><p>High</p></td>
+<td><p>Low</p></td>
+<td><p>Medium (M)</p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple" start="9">
+<li><p>System software</p></li>
+</ol>
+</td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High (H)</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="10">
+<li><p>Science data</p></li>
+</ol>
+</td>
+<td><p>Low</p></td>
+<td><p>Medium</p></td>
+<td><p>Low</p></td>
+<td><p>Low (L)</p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple" start="11">
+<li><p>EHR (Electronic Health Register)</p></li>
+</ol>
+</td>
+<td><p>Medium</p></td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High (H)</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple" start="12">
+<li><p>User data (e.g. date-of-birth, ID)</p></li>
+</ol>
+</td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>Low</p></td>
+<td><p>High (H)</p></td>
+</tr>
+<tr class="row-even"><td><ol class="arabic simple" start="13">
+<li><p>Patient vitals (e.g. blood pressure)</p></li>
+</ol>
+</td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High</p></td>
+<td><p>High (H)</p></td>
+</tr>
+</tbody>
+</table>
+<p>Given the asset score, this is how we rank their prioritization of the assets:</p>
+<table class="colwidths-auto docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Asset Score</strong></p></th>
+<th class="head"><p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>High (H)</p></td>
+<td><p>Very costly loss of major tangible assets or resources; significant violation of an organization’s mission, reputation or interest; or human death or serious injury</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium (M)</p></td>
+<td><p>Costly loss of tangible assets or resources, violation of an organization’s mission reputation or interest, or human injury</p></td>
+</tr>
+<tr class="row-even"><td><p>Low (L)</p></td>
+<td><p>Loss of some tangible assets or resources or an effect on an organization’s mission, reputation or interest</p></td>
+</tr>
+</tbody>
+</table>
+<p>To sum up, we see that the most critical assets to the organization is user and
+patient data, the authentication and authorization security and their respective
+data, and finally the system software on the internal computers.</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">IMT3501 Programvaresikkerhet - Xgenic - Threat Modeling and Privacy Assessment Lab - Task 2</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="01_root.html">Describe your system</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, H. Aarseth, M. Lindvall, E. Vestad, S. Vrenne, M. Wahl.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/pages/01_System_Assets.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
