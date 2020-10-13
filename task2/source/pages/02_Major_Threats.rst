@@ -36,8 +36,8 @@ order to specify the  The STRIDE methodology is defined as followed:
 
 System and data confidentiality threats
 ---------------------------------------
-- IdC: Sensitive user data is sent in cleartext over the network.
-- IdC: Invalid user input exploits the database. (Form validation)
+- Sensitive user data is sent in cleartext over the network.
+- Invalid user input exploits the database. (Form validation)
 - External, abnormal requests reaches internal services outside of DMZ.
 - Sensitive patient information is leaked to the public as a result of a data breach.
 - Password hashes are leaked to the public as a result of a databreach.
@@ -46,37 +46,53 @@ System and data confidentiality threats
 System and data integrity threats
 ---------------------------------
 - System software is out of date and exploitable.
-- Internal user modifies patient info, resulting in uncorrect information.
+- Healthcare worker modifies patient info incorrectly, resulting in vital incorrect patient data.
+- System security logfiles are not recording information correctly according to system behavior.
+- System security logfiles are not recording all of the information needed in order to document system security events.
+- Inconsistency in configuration data leads to the system not functioning as intended.
+- Incorrect modification in EHR might affect actions in the organization.
+
+
 
 
 System and data availability threats
 ------------------------------------
-- DoS: System monitoring fails and creates a gap in the logs.
-- The system is inaccessible because of too much incoming requests.
+- System monitoring fails and creates a gap in the logs.
+- The system is inaccessible because of too many incoming requests.
+- 
 
 
 
 Authentication threats for system eligible users
 ------------------------------------------------
 - Opportunist steals a logged in users cookie to access unauthorized information.
-- External user spoofs email address to harvest credentials through phising.
+- External user spoofs email address to harvest authentication credentials through phising.
 
 
 
 Authorization threats for system eligible users
 -----------------------------------------------
 
-- IdC: An unauthorized user has access to confidential patient information.
-- EoP: Sysadmin rights are not terminated upon resignation.
+- An unauthorized user has access to confidential patient information.
+- Sysadmin rights are not terminated upon resignation.
 - An internal user elevates his/hers privileges to perform unauthorized actions.
 
 
 
 Non-repudiation threats for system eligible users
 -------------------------------------------------
+- Social worker forgets to commit vital patient information and denies not doing so.
+- Healthcare worker denies accessing unauthorized information about other patients.
+- A system administrator denies abuse of system privileges.
+- Patients does not inform social workers, family members or healthcare workers about vital updates regarding their health status.
+- Social worker or healthcare worker denies commiting/updating incorrect data about a patient.
 
 
-
++ Patient
++ Family member
++ Healthcare worker
++ social worker
++ System administrator
 
 
 
