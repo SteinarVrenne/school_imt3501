@@ -12,7 +12,7 @@ Welcome to Programvaresikkerhet's documentation!
    :glob:
 
    pages/01_root.rst
-
+   pages/02_root.rst
 
 ..
    Indices and tables
