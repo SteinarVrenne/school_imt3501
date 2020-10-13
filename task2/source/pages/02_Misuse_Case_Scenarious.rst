@@ -47,19 +47,17 @@ Misuse case scenarios
 
 
         - An internal user elevates his/hers privileges to perform unauthorized actions.
-
-
+            - An attack like this can only be performed by an already existing user in the system. 
+              Example of doing this: .....
+              One other way of doing this is by stealing cookies, like mentioned above. This was a vulnerability found in Blackboard recently. 
 
         - Sensitive user data is sent in cleartext over the network.
-
-
+            - If the website is not strictly configured to transfer data using HTTPS, anyone using a middle man attack can listen in on the the traffic using software like Wireshark.
+              Attackers can also listen in on wireless signals, and eavesdrop the TCP stream, if they are nearby, and the attacker are using a wireless network connection.
 
         - Invalid user input exploits the database.
-
-
-
-        - Internal user modifies patient info, resulting in uncorrect information.
-
+            - Poorly constructed databases can be exploited by injection. The attacker can experiment with how the database sanitize, and read inputs.
+            - The skill level required to preform this kind of attack varies based on how good the database is constructed. 
 
 
 
@@ -68,7 +66,23 @@ Misuse case scenarios
     - What is the risk and the impact for your system according to the list of the identified threats (prioritize the threats)?
 
 
+..  ----------------------------------------------------------------------------------------
+    | Threat ID  |              Threat                          | DREAD Value |  Mitigated |
+    +------------+----------------------------------------------+-------------+------------+
+    |   T1       | Access to the database                       |   eks:  10  | eks: no    |         
+    |   T2       | System software out of date, and exploitable |             |            |
+    |   T3       | System is inaccessible                       |             |            |
+    |   T4       | Data sent in cleartext                       |             |            |
+    |   T8       | Invalid database input                       |             |            |
+    |   T10      | Spoofing of email address, phishing          |             |            |
 
+
+..       DREAD = is a threat risk ranking method
+         Damage potential (1-3): How big will be the damage if the attack succeed
+         Reproducability 	    How easy it is for the attack/threat to be repoduced
+         Exploitability		    How easy it is for the attack to be launched
+         Affedted users		    How many are affected
+         Discoverability	    How easy it is to discover the vulnerability
 
 
 
