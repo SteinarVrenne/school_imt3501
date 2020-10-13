@@ -53,7 +53,7 @@ look into what happened, and is necessary for when something goes wrong. The
 logs may be disrupted, e.g. during an attack if the attacker tries to erase
 logs, in an effort to cover their tracks to make the forensic work take longer.
 
-To rank the identified assets we found, we use the United States Institute of Standards and Technology asset ranking to rank our assets (NIST 800-18):  
+To rank the identified assets we found, we use the United States Institute of Standards and Technology asset ranking to rank our assets (NIST 800-18):
 
 .. image:: ../images/NIST_AssetRanking.PNG
 
@@ -98,4 +98,4 @@ Given the asset score, this is how we rank their prioritization of the assets:
 
 To sum up, we see that the most critical assets to the organization is user and
 patient data, the authentication and authorization security and their respective
-data, and finally the system software on the internal computers. 
+data, and finally the system software on the internal computers.

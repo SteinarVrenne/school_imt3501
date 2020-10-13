@@ -59,7 +59,7 @@ System and data availability threats
 ------------------------------------
 - System monitoring fails and creates a gap in the logs.
 - The system is inaccessible because of too many incoming requests.
-- 
+-
 
 
 
