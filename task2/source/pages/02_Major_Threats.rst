@@ -58,8 +58,9 @@ System and data integrity threats
 System and data availability threats
 ------------------------------------
 - System monitoring fails and creates a gap in the logs.
-- The system is inaccessible because of too many incoming requests.
--
+- The webserver is inaccessible because of too many incoming requests.
+- Third party software experiences downtime that causes lack of functionality in the system.
+- The database server is down because of too many incoming requests so that patient vitals are not accessible.
 
 
 
@@ -67,7 +68,7 @@ Authentication threats for system eligible users
 ------------------------------------------------
 - Opportunist steals a logged in users cookie to access unauthorized information.
 - External user spoofs email address to harvest authentication credentials through phising.
-
+- 
 
 
 Authorization threats for system eligible users
