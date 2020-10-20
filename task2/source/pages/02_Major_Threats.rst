@@ -1,27 +1,48 @@
 Major threats
 =============
 
-In this section, we will identify potential threats and sources for the
+In this section, we will identify potential threats for the
 Out-patient healthcare monitoring system. These threats will be identified by
 using the STRIDE model as SRIDE per threat. STRIDE is just used as a guide in
-order to specify the  The STRIDE methodology is defined as followed:
+order to specify the different threats. The STRIDE methodology is defined as followed:
 
 .. csv-table::
   :header: **STRIDE letter**, **Definition**, **Violates**
   :widths: 15, 40, 10
 
-	"**S - Spoofing**", "Pretending to be someone or something else.", "Authentication"
-  "**T - Tampering**", "Modification of elements you are not allowed to modify.", "Integrity"
-  "**R - Repudiation**", "Denying that you did something or claiming that you are not responsible for the event.", "Reputation"
-  "**I - Information Disclosure**", "Exposing information to someone who is not authorized.", "Confidentiality"
-  "**D - Denial of Service**", "Preventing a system from providing a service or preventing users to access it.", "Availability"
-  "**E - Elevation of privileges**", "Refers to situations where you are able to perform actions you are not supposed to.", "Authorization"
+	"S - Spoofing", "Pretending to be someone or something else.", "Authentication"
+  "T - Tampering", "Modification of elements you are not allowed to modify.", "Integrity"
+  "R - Repudiation", "Denying that you did something or claiming that you are not responsible for the event.", "Reputation"
+  "I - Information Disclosure", "Exposing information to someone who is not authorized.", "Confidentiality"
+  "D - Denial of Service", "Preventing a system from providing a service or preventing users to access it.", "Availability"
+  "E - Elevation of privileges", "Refers to situations where you are able to perform actions you are not supposed to.", "Authorization"
+
+Each threat is defined as a sentence that describes the scenario in short
+and does in most cases include a system asset or an eligilbe system user. More
+in-dept scenarios along with abuse-case scenarios and mitigations will be the
+topic later in this report.
+
+Each threat will have a threat ID as an unique
+identifyer, along with an *Asset* and *Element* column. The *Asset* column will
+include assets threatened by the specified threat (refer to the assets section
+earlier in this report). In the same way, *Elements* will refer to what system
+element is threatened in the scenario. For our case, we will include the following
+elements in our threat specification:
+
+.. csv-table::
+  :header: **Element**, **Definition**
+  :widths: 15, 40
+
+  "Process", "Refers to scenarios that threatens system processes or workflows."
+  "Data Storage", "Refers to scenarios that threatens storage of system, user data or other information."
+  "Data flow", "Refers to scenarios that threatens data streams/flows, such as communication channels or network activity."
+  "External entity", "Refers to scenarios that threatens external entities related to the system."
 
 
 System and data confidentiality threats
 ---------------------------------------
 .. csv-table::
-  :header: **Threat ID**, **Threat**, **User/Asset**, **Element**
+  :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
 
   "T01", "Sensitive user data is sent in cleartext over the network.", "User data", "Data flow"
@@ -34,7 +55,7 @@ System and data confidentiality threats
 System and data integrity threats
 ---------------------------------
 .. csv-table::
-  :header: **Threat ID**, **Threat**, **User/Asset**, **Element**
+  :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
 
   "T06", "System software is out of date and exploitable.", "System software", "Process"
@@ -50,7 +71,7 @@ System and data integrity threats
 System and data availability threats
 ------------------------------------
 .. csv-table::
-  :header: **Threat ID**, **Threat**, **User/Asset**, **Element**
+  :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
 
   "T14", "System monitoring/logging fails and creates a gap in the event logs.", "Logs", "Data flow"
