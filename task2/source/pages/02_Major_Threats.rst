@@ -77,7 +77,7 @@ System and data availability threats
   "T14", "System monitoring/logging fails and creates a gap in the event logs.", "Logs", "Data flow"
   "T15", "The webserver is inaccessible because of too many incoming requests.", "Webserver", "Process"
   "T16", "Third party software experiences downtime that causes lack of functionality in the system.", "System software", "Process & External entity"
-  "T17", "The database server is inaccessible because of too many incoming requests.", "Database serber", "Process & Data storage"
+  "T17", "The database server is inaccessible because of too many incoming requests.", "Database server", "Process & Data storage"
   "T18", "Users are not able to use the web application in emergency situations because of system downtime.", "Webserver", "Process"
 
 
