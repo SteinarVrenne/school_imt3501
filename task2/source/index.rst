@@ -13,6 +13,8 @@ Welcome to Programvaresikkerhet's documentation!
 
    pages/01_root.rst
    pages/02_root.rst
+   pages/03_Prevent_Mitigate.rst
+   pages/04_Threat_Modeling_Process.rst
 
 ..
    Indices and tables
