@@ -15,7 +15,7 @@ to, and will be categorized into a type of mitigation, as follows:
 
 .. csv-table::
   :header: **Threat ID**, **Type**, **Mitigation**
-  :widths: 5, 10, 50
+  :widths: 7, 10, 50
 
   "T01", "Remediate", "Implement current best practice on secure communication channels, including mandating TLS for all connections."
   "T02", "Remediate", "Ensure proper string escaping is done for all database inputs."
