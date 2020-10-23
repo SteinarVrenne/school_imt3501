@@ -43,7 +43,7 @@ System and data confidentiality threats
 """""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
-  :widths: 5, 40, 10, 10
+  :widths: 7, 40, 10, 10
 
   "T01", "Sensitive user data is sent in cleartext over the network.", "User data", "Data flow"
   "T02", "Malicious user input exploits the database by the means of SQLinjection.", "Database server", "Data storage"
@@ -56,7 +56,7 @@ System and data integrity threats
 """""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
-  :widths: 5, 40, 10, 10
+  :widths: 7, 40, 10, 10
 
   "T06", "System software is out of date and exploitable.", "System software", "Process"
   "T07", "Patient vitals is modified/updated incorrectly, resulting in the patient data having an incorrect state.", "Patient vitals", "Data storage"
@@ -72,7 +72,7 @@ System and data availability threats
 """"""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
-  :widths: 5, 40, 10, 10
+  :widths: 7, 40, 10, 10
 
   "T14", "System monitoring/logging fails and creates a gap in the event logs.", "Logs", "Data flow"
   "T15", "The webserver is inaccessible because of too many incoming requests.", "Webserver", "Process"
@@ -85,7 +85,7 @@ Authentication threats for system eligible users
 """"""""""""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
-  :widths: 5, 40, 10, 10
+  :widths: 7, 40, 10, 10
 
   "T19", "A logged in user has his/her session cookie compromized.", "Cookies, Authenticative data", "Data flow"
   "T20", "A healthcare worker has his or hers authenticative data stolen through phishing emails.", "Authenticative data", "Data storage"
@@ -97,7 +97,7 @@ Authorization threats for system eligible users
 """""""""""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
-  :widths: 5, 40, 10, 10
+  :widths: 7, 40, 10, 10
 
   "T23", "Any system user has unauthorized access to confidential patient information.", "User data & patient vitals", "Data storage"
   "T24", "Sysadmin rights are not terminated upon resignation.", "Authentication & authorization servers", "Data flow"
@@ -109,7 +109,7 @@ Repudiation threats for system eligible users
 """""""""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
-  :widths: 5, 40, 10, 10
+  :widths: 7, 40, 10, 10
 
   "T27", "Social worker forgets to commit vital patient information and denies not doing so.", "Patient vitals", "Data storage"
   "T28", "Healthcare worker denies accessing unauthorized information about other patients.", "Patient vitals, user data", "Data storage"
