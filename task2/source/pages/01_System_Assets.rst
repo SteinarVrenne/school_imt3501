@@ -72,7 +72,7 @@ confidentiality, integrity and availability.
 
 .. csv-table::
 	:header: **Asset**, **Confidentiality**, **Integrity**, **Availability**, **Score**
-	:widths: 50, 15, 15, 15, 15
+	:widths: 50, 20, 15, 15, 15
 
 	"1. Authentication and Authorization Server", "High", "High", "High", "High (H)"
 	"2. Database Server", "Low", "High", "Medium", "Medium (M)"
