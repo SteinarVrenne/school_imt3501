@@ -19,7 +19,7 @@ to, and will be categorized into a type of mitigation, as follows:
 
   "T01", "Remediate", "Implement current best practice on secure communication channels, including mandating TLS for all connections."
   "T02", "Remediate", "Ensure proper string escaping is done for all database inputs."
-  "T03", "", ""
+  "T03", "Accept", "This might happen and indicates that the firewall/router is misconfigured and must be updated."
   "T04, T05", "Transfer", "Implement strict access controls, keep all systems up to date, follow best practices on the principle of least privilege, and utilize contractual and legal controls to handle data breaches."
   "T06", "Remediate", "Ensure all software is kept up to date, that all security patches are automatically applied, and that devices are routinely scanned for outdated software."
   "T07", "", ""
