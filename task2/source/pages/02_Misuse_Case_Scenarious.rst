@@ -18,7 +18,7 @@ Login as user
 
 .. csv-table::
   :header: **Threat ID**, **Threat**
-  :widths: 15, 40   
+  :widths: 15, 40
 
         "T05", "Password hashes are leaked to the public as a result of a data breach."
         "T06", "System software is out of date and exploitable."
@@ -40,7 +40,7 @@ Read patient vitals
 
 .. csv-table::
   :header: **Threat ID**, **Threat**
-  :widths: 15, 40 
+  :widths: 15, 40
 
        "T25", "A patient, family member or social worker elevates his/hers privileges to perform unauthorized actions."
        "T01", "Sensitive user data is sent in cleartext over the network."
@@ -50,22 +50,22 @@ Read patient vitals
        "T11", "Incorrect modification in EHR might affect further actions in the organization."
        "T12", "An older more vulnerable page or version of the web application is not properly removed from the internet after an application upgrade and gets exploited."
        "T07", "Patient vitals is modified/updated incorrectly, resulting in the patient data having an incorrect state."
-       "T13", "The web application has client-side vulnerabilities that gets exploited and thus changes the site's visual apperance or behavior."
+       "T13", "The web application has client-side vulnerabilities that might be used to perform abnormal or abusive activity."
        "T15", "The webserver is inaccessible because of too many incoming requests."
        "T16", "Third party software experiences downtime that causes lack of functionality in the system."
        "T18", "Users are not able to use the web application in emergency situations because of system downtime."
        "T20", "A healthcare worker has his or hers authenticative data stolen through phishing emails."
        "T21", "A social worker or family member is not able to authenticate during an emergency situation because of system bugs."
-       "T23", "A system user has unauthorized access to confidential patient information."
+       "T23", "Any system user has unauthorized access to confidential patient information."
        "T26", "A social worker's access to patient information is not terminated once the relationship has ended."
        "T28", "Healthcare worker denies accessing unauthorized information about other patients."
-            
+
 Register new patient / healthcare worker
 """"""""""""""""""""""""""""""""""""""""
 
 .. csv-table::
   :header: **Threat ID**, **Threat**
-  :widths: 15, 40 
+  :widths: 15, 40
 
        "T10", "Inconsistency in configuration data leads to the system not functioning as intended."
        "T15", "The webserver is inaccessible because of too many incoming requests."
@@ -78,7 +78,7 @@ The rest of our threats are still dangerous to the system, however they do not f
 
 How would threat agents proceed/preform the attack?
 ...................................................
-    
+
 
 -  **T01**, Sensitive user data is sent in cleartext over the network.
     - If the website is not strictly configured to transfer data using HTTPS, anyone using a middle man attack can listen in on the the traffic using software like Wireshark.
@@ -101,7 +101,7 @@ How would threat agents proceed/preform the attack?
       This can either be information about one user, or all of the systems users.
 
 -  **T05**, Password hashes are leaked to the public as a result of a data breach.
-    - The threat agent, most likely an individual, or small group dumps the database of the system to the public. 
+    - The threat agent, most likely an individual, or small group dumps the database of the system to the public.
       In order to preform this kind of attack, you can use the same methods as described in threat 04.
       This can be used by either an SQL injection, or gaining access to the database server.
       The attacker are likely to preform this attack, to sell the users passwords for financial gain.
@@ -114,24 +114,24 @@ How would threat agents proceed/preform the attack?
     - This is a event that a hacker might to in order to hide their tracks.
       They have been inside the system, gained the information they seeked, and now wants nobody to know that they were in.
       To to this, they can simply delete the logfiles, and command history.
-        
+
 -  **T12**, An older more vulnerable page or version of the web application is not properly removed from the internet after an application upgrade and gets exploited.
     - Attackers who finds this vunerable page can simply use a exploit framework like metasploit, to gain higher level access to the system.
 
--  **T13**, The web application has client-side vulnerabilities that gets exploited and thus changes the site's visual apperance or behavior.
-    - !!!!!!!!!!!!!.
+-  **T13**, The web application has client-side vulnerabilities that might be used to perform abnormal or abusive activity.
+    - A script kiddie might exploit a XSS-vulnerability in order to retrieve information about other users.
 
 -  **T15**, The webserver is inaccessible because of too many incoming requests.
     - This threat could either because of to much normal traffic, or a malicious DDOS attack.
-      The threat agent 
+      The threat agent
 
 -  **T17**, The database server is inaccessible because of too many incoming requests.
     - This threat could either because of to much normal traffic, or a malicious DDOS attack.
       The threat agent
 
 -  **T18**, Users are not able to use the web application in emergency situations because of system downtime.
-    - Attackers can perform a distrubuted denial of service attack on the system, in order to take it offline. 
-      They dont gain any information, people who have a motivation to take the system offline like hacktivists might do it.  
+    - Attackers can perform a distrubuted denial of service attack on the system, in order to take it offline.
+      They dont gain any information, people who have a motivation to take the system offline like hacktivists might do it.
 
 -  **T19**, A logged in user has his/her session cookie compromized.
     - This kind of attack requires some amount of skill and knowledge, so the actor are most likely groups or state actors.
@@ -153,10 +153,10 @@ How would threat agents proceed/preform the attack?
 
 -  **T26**, A social worker's access to patient information is not terminated once the relationship has ended.
     - This threat is similar to threat 24. In short term they can be contacted by a malicious person or group, in order to keep them updated on the patients health.
-                     
+
 The threats that are not mentioned in the text above, are not a threat connected to one of the threat agents, rather a threat that some of the systems own users, or systemadministrator can perform without intention.
-    
-    
+
+
 What is the risk and the impact for your system according to the list of the identified threats?
 ................................................................................................
 
@@ -171,7 +171,7 @@ What is the risk and the impact for your system according to the list of the ide
   :header: **Threat ID**, **Threat**, **DREAD Value**, **Mitigated**
   :widths: 5, 40, 10, 10
 
-  "T01", "Sensitive user data is sent in cleartext over the network.", "2.6", "no" 
+  "T01", "Sensitive user data is sent in cleartext over the network.", "2.6", "no"
   "T02", "Malicious user input exploits the database by the means of SQLinjection.", "2.4", "no"
   "T03", "External, abnormal requests reaches internal services outside of DMZ.", "1.6", "no"
   "T04", "Sensitive patient information is leaked to the public as a result of a data breach.", "2.4", "no"
@@ -183,7 +183,7 @@ What is the risk and the impact for your system according to the list of the ide
   "T10", "Inconsistency in configuration data leads to the system not functioning as intended.", "x", "no"
   "T11", "Incorrect modification in EHR might affect further actions in the organization.", "x", "no"
   "T12", "An older more vulnerable page or version of the web application is not properly removed from the internet after an application upgrade and gets exploited.", "2.6", "no"
-  "T13", "The web application has client-side vulnerabilities that gets exploited and thus changes the site's visual apperance or behavior.", "1.6", "no"
+  "T13", "The web application has client-side vulnerabilities that might be used to perform abnormal or abusive activity.", "1.6", "no"
   "T14", "System monitoring/logging fails and creates a gap in the event logs.", "x", "no"
   "T15", "The webserver is inaccessible because of too many incoming requests.", "2.8", "no"
   "T16", "Third party software experiences downtime that causes lack of functionality in the system.", "x", "no"
@@ -193,7 +193,7 @@ What is the risk and the impact for your system according to the list of the ide
   "T20", "A healthcare worker has his or hers authenticative data stolen through phishing emails.", "2", "no"
   "T21", "A social worker or family member is not able to authenticate during an emergency situation because of system bugs.", "x", "no"
   "T22", "A system administrator spoofs his or hers identity in order to harvest user data or patient vitals.", "2.4", "no"
-  "T23", "A system user has unauthorized access to confidential patient information.", "1.4", "no"
+  "T23", "Any system user has unauthorized access to confidential patient information.", "1.4", "no"
   "T24", "Sysadmin rights are not terminated upon resignation.", "2.2", "no"
   "T25", "A patient, family member or social worker elevates his/hers privileges to perform unauthorized actions.", "1.4", "no"
   "T26", "A social worker's access to patient information is not terminated once the relationship has ended.", "x", "no"

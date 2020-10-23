@@ -65,7 +65,7 @@ System and data integrity threats
   "T10", "Inconsistency in configuration data leads to the system not functioning as intended.", "Configuration data", "Process"
   "T11", "Incorrect modification in EHR might affect further actions in the organization.", "EHR", "External entity"
   "T12", "An older more vulnerable page or version of the web application is not properly removed from the internet after an application upgrade and gets exploited.", "Webserver & System software", "Process"
-  "T13", "The web application has client-side vulnerabilities that gets exploited and thus changes the site's visual apperance or behavior.", "Process"
+  "T13", "The web application has client-side vulnerabilities that might be used to perform abnormal or abusive activity.", "Webserver, user data", "Data flow"
 
 
 System and data availability threats
@@ -77,7 +77,7 @@ System and data availability threats
   "T14", "System monitoring/logging fails and creates a gap in the event logs.", "Logs", "Data flow"
   "T15", "The webserver is inaccessible because of too many incoming requests.", "Webserver", "Process"
   "T16", "Third party software experiences downtime that causes lack of functionality in the system.", "System software", "Process & External entity"
-  "T17", "The database server is inaccessible because of too many incoming requests.", "Database server", "Process & Data storage"
+  "T17", "The database server is inaccessible because of too many incoming requests.", "Database serber", "Process & Data storage"
   "T18", "Users are not able to use the web application in emergency situations because of system downtime.", "Webserver", "Process"
 
 
@@ -99,7 +99,7 @@ Authorization threats for system eligible users
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
 
-  "T23", "A system user has unauthorized access to confidential patient information.", "User data & patient vitals", "Data storage"
+  "T23", "Any system user has unauthorized access to confidential patient information.", "User data & patient vitals", "Data storage"
   "T24", "Sysadmin rights are not terminated upon resignation.", "Authentication & authorization servers", "Data flow"
   "T25", "A patient, family member or social worker elevates his/hers privileges to perform unauthorized actions.", "Authentication & authorization servers", "Data flow"
   "T26", "A social worker's access to patient information is not terminated once the relationship has ended.", "Authentication & authorization servers, patient vitals", "Data storage"
