@@ -182,12 +182,13 @@ Threat risk and impact
     |   T2       | System software out of date, and exploitable |             |            |
 
 
-DREAD Score calculation
-Damage potential (1-3): How big will be the damage if the attack succeed
-Reproducability  (1-3): How easy it is for the attack/threat to be repoduced
-Exploitability   (1-3): How easy it is for the attack to be launched
-Affedted users	 (1-3): How many are affected
-Discoverability  (1-3): How easy it is to discover the vulnerability
+**DREAD Score calculation**
+
+- Damage potential (1-3): How big will be the damage if the attack succeed
+- Reproducability (1-3): How easy it is for the attack/threat to be repoduced
+- Exploitability (1-3): How easy it is for the attack to be launched
+- Affedted users (1-3): How many are affected
+- Discoverability (1-3): How easy it is to discover the vulnerability
 
 DREAD Value Score =  D + R + E + A + D / 5 
 
