@@ -1,15 +1,6 @@
 System assets
 -------------
 
-- Revisit task 1 and identify and prioritize the system assets.
-    - Sensitive and personal information.
-
-
-    - What are the most critical assets for your system. Categorize based on CIAproperties.
-
-
-    - Does your system access/use/share assets with/ to other third party.
-
 From task 1 we identified the following assets in the system: "1. Authentication and Authorization Server", "2. Database Server", "3. Webserver", "4. Internal Servers", "5. Authenticative data", "6. Cookies (from webserver)", "7. Logs (metadata, eventlogs, etc.)", "8. Configuration data", "9. System software", "10. Science data", "11. EHR (Electronic Health Register", "12. User data (e.g. date-of-birth, ID)", "13. Patient vitals (e.g. blood pressure)".
 
 First, we have the different hardware servers and the
