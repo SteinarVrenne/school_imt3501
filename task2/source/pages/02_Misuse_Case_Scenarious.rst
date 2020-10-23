@@ -163,48 +163,53 @@ Threat risk and impact
     |   T1       | Access to the database                       |   eks:  10  | eks: no    |
     |   T2       | System software out of date, and exploitable |             |            |
 
+
+DREAD Score calculation
+Damage potential (1-3): How big will be the damage if the attack succeed
+Reproducability  (1-3): How easy it is for the attack/threat to be repoduced
+Exploitability   (1-3): How easy it is for the attack to be launched
+Affedted users	 (1-3): How many are affected
+Discoverability  (1-3): How easy it is to discover the vulnerability
+
+DREAD Value Score =  D + R + E + A + D / 5 
+
+x = incompatible
+
 .. csv-table::
   :header: **Threat ID**, **Threat**, **DREAD Value**, **Mitigated**
   :widths: 5, 40, 10, 10
 
-  "T01", "Sensitive user data is sent in cleartext over the network.", "2.6", "no"
-  "T02", "Malicious user input exploits the database by the means of SQLinjection.", "2.4", "no"
-  "T03", "External, abnormal requests reaches internal services outside of DMZ.", "1.6", "no"
-  "T04", "Sensitive patient information is leaked to the public as a result of a data breach.", "2.4", "no"
-  "T05", "Password hashes are leaked to the public as a result of a data breach.", "2.6", "no"
-  "T06", "System software is out of date and exploitable.", "2.8", "no"
-  "T07", "Patient vitals is modified/updated incorrectly, resulting in the patient data having an incorrect state.", "x", "no"
-  "T08", "System security logfiles are not recording information correctly according to system behavior.", "x", "no"
-  "T09", "System security logfiles are not recording all of the information needed in order to document system security events.", "x", "no"
-  "T10", "Inconsistency in configuration data leads to the system not functioning as intended.", "x", "no"
-  "T11", "Incorrect modification in EHR might affect further actions in the organization.", "x", "no"
-  "T12", "An older more vulnerable page or version of the web application is not properly removed from the internet after an application upgrade and gets exploited.", "2.6", "no"
-  "T13", "The web application has client-side vulnerabilities that might be used to perform abnormal or abusive activity.", "1.6", "no"
+  "T01", "Sensitive user data is sent in cleartext over the network.", "2.6", "yes"
+  "T02", "Malicious user input exploits the database by the means of SQLinjection.", "2.4", "yes"
+  "T03", "External, abnormal requests reaches internal services outside of DMZ.", "1.6", "yes"
+  "T04", "Sensitive patient information is leaked to the public as a result of a data breach.", "2.4", "yes"
+  "T05", "Password hashes are leaked to the public as a result of a data breach.", "2.6", "yes"
+  "T06", "System software is out of date and exploitable.", "2.8", "yes"
+  "T07", "Patient vitals is modified/updated incorrectly, resulting in the patient data having an incorrect state.", "x", "yes"
+  "T08", "System security logfiles are not recording information correctly according to system behavior.", "x", "yes"
+  "T09", "System security logfiles are not recording all of the information needed in order to document system security events.", "x", "yes"
+  "T10", "Inconsistency in configuration data leads to the system not functioning as intended.", "x", "yes"
+  "T11", "Incorrect modification in EHR might affect further actions in the organization.", "x", "yes"
+  "T12", "An older more vulnerable page or version of the web application is not properly removed from the internet after an application upgrade and gets exploited.", "2.6", "yes"
+  "T13", "The web application has client-side vulnerabilities that might be used to perform abnormal or abusive activity.", "1.6", "yes"
   "T14", "System monitoring/logging fails and creates a gap in the event logs.", "x", "no"
-  "T15", "The webserver is inaccessible because of too many incoming requests.", "2.8", "no"
-  "T16", "Third party software experiences downtime that causes lack of functionality in the system.", "x", "no"
-  "T17", "The database server is inaccessible because of too many incoming requests.", "2.8", "no"
-  "T18", "Users are not able to use the web application in emergency situations because of system downtime.", "3", "no"
-  "T19", "A logged in user has his/her session cookie compromized.", "1.8", "no"
-  "T20", "A healthcare worker has his or hers authenticative data stolen through phishing emails.", "2", "no"
+  "T15", "The webserver is inaccessible because of too many incoming requests.", "2.8", "yes"
+  "T16", "Third party software experiences downtime that causes lack of functionality in the system.", "x", "yes"
+  "T17", "The database server is inaccessible because of too many incoming requests.", "2.8", "yes"
+  "T18", "Users are not able to use the web application in emergency situations because of system downtime.", "3", "yes"
+  "T19", "A logged in user has his/her session cookie compromized.", "1.8", "yes"
+  "T20", "A healthcare worker has his or hers authenticative data stolen through phishing emails.", "2", "yes"
   "T21", "A social worker or family member is not able to authenticate during an emergency situation because of system bugs.", "x", "no"
-  "T22", "A system administrator spoofs his or hers identity in order to harvest user data or patient vitals.", "2.4", "no"
-  "T23", "Any system user has unauthorized access to confidential patient information.", "1.4", "no"
-  "T24", "Sysadmin rights are not terminated upon resignation.", "2.2", "no"
-  "T25", "A patient, family member or social worker elevates his/hers privileges to perform unauthorized actions.", "1.4", "no"
-  "T26", "A social worker's access to patient information is not terminated once the relationship has ended.", "x", "no"
-  "T27", "Social worker forgets to commit vital patient information and denies not doing so.", "x", "no"
-  "T28", "Healthcare worker denies accessing unauthorized information about other patients.", "2.4", "no"
-  "T29", "A system administrator denies abuse of system privileges.", "2.6", "no"
+  "T22", "A system administrator spoofs his or hers identity in order to harvest user data or patient vitals.", "2.4", "yes"
+  "T23", "Any system user has unauthorized access to confidential patient information.", "1.4", "yes"
+  "T24", "Sysadmin rights are not terminated upon resignation.", "2.2", "yes"
+  "T25", "A patient, family member or social worker elevates his/hers privileges to perform unauthorized actions.", "1.4", "yes"
+  "T26", "A social worker's access to patient information is not terminated once the relationship has ended.", "x", "yes"
+  "T27", "Social worker forgets to commit vital patient information and denies not doing so.", "x", "yes"
+  "T28", "Healthcare worker denies accessing unauthorized information about other patients.", "2.4", "yes"
+  "T29", "A system administrator denies abuse of system privileges.", "2.6", "yes"
   "T30", "A patient does not inform social workers, family members or healthcare workers about vital updates regarding their health status.", "x", "no"
-  "T31", "Social worker or healthcare worker denies committing/updating incorrect data about a patient.", "x", "no"
-  "T32", "The system denies patients (or their family members/social workers) to submit updates regarding their health situation.", "x", "no"
+  "T31", "Social worker or healthcare worker denies committing/updating incorrect data about a patient.", "x", "yes"
+  "T32", "The system denies patients (or their family members/social workers) to submit updates regarding their health situation.", "x", "yes"
 
-..       DREAD = is a threat risk ranking method
-         Damage potential (1-3): How big will be the damage if the attack succeed
-         Reproducability  (1-3): How easy it is for the attack/threat to be repoduced
-         Exploitability   (1-3): How easy it is for the attack to be launched
-         Affedted users	  (1-3): How many are affected
-         Discoverability  (1-3): How easy it is to discover the vulnerability
 
-..       D + R + E + A + D / 5 = Score
