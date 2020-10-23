@@ -1,17 +1,12 @@
-Misuse case scenarios
----------------------
+Threats and use/misuse-case scenarios
+-------------------------------------
 
 It also important to understand how the misuse case scenario along with related
 threat agents abuses a threat in order to violate system policies. Below we will
-elaborate on how certain misuse cases specified in task 1 are related to identified
-threats. We will also explain how related threat agents performs a certain attack
-or exploits the threat.
+elaborate on how certain use cases specified in task 1 are related to or triggers
+identified threats. We will also explain how related threat agents performs a
+certain attack or exploits the threat.
 
-..  Which threats can happen to what use case?
-    ------------------------------------------
-
-Which threat would trigger what use case?
-'''''''''''''''''''''''''''''''''''''''''
 
 Login as user
 """""""""""""
@@ -76,8 +71,8 @@ Register new patient / healthcare worker
 The rest of our threats are still dangerous to the system, however they do not fit into one of the three use cases.
 
 
-How would threat agents proceed/preform the attack?
-...................................................
+Threat exploitation by threat agents
+------------------------------------
 
 
 -  **T01**, Sensitive user data is sent in cleartext over the network.
@@ -157,8 +152,9 @@ How would threat agents proceed/preform the attack?
 The threats that are not mentioned in the text above, are not a threat connected to one of the threat agents, rather a threat that some of the systems own users, or systemadministrator can perform without intention.
 
 
-What is the risk and the impact for your system according to the list of the identified threats?
-................................................................................................
+Threat risk and impact
+----------------------
+
 
 .. How the table should look
 ..  ----------------------------------------------------------------------------------------
