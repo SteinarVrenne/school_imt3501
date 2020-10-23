@@ -33,6 +33,7 @@ Several threat agents are mentioned in task 1. We will elaporate on these in thi
    :widths: 20, 20, 20, 20, 20
 
    "Script kiddy", "entertainment, status", "Low", "Low", "Low"
+   "Hacktivist", "political change, awareness", "Low", "Low", "Low"
    "Nation-states", "intelligence, influence, infiltration", "High", "High", "High"
    "Organized crime", "Monatary", "Medium", "High", "Medium"
    "Insider Social worker / family member", "Monatary, revenge", "Low", "Low", "Low, (in cases of revenge Medium)"
