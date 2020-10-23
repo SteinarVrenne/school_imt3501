@@ -1,5 +1,5 @@
 Misuse case scenarios
-=====================
+---------------------
 
 It also important to understand how the misuse case scenario along with related
 threat agents abuses a threat in order to violate system policies. Below we will
@@ -7,11 +7,11 @@ elaborate on how certain misuse cases specified in task 1 are related to identif
 threats. We will also explain how related threat agents performs a certain attack
 or exploits the threat.
 
-Which threats can happen to what use case?
-------------------------------------------
+..  Which threats can happen to what use case?
+    ------------------------------------------
 
 Which threat would trigger what use case?
-.........................................
+'''''''''''''''''''''''''''''''''''''''''
 
 Login as user
 """""""""""""

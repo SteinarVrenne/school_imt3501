@@ -1,5 +1,5 @@
 Major threats
-=============
+-------------
 
 In this section, we will identify potential threats for the
 Out-patient healthcare monitoring system. These threats will be identified by
@@ -40,7 +40,7 @@ elements in our threat specification:
 
 
 System and data confidentiality threats
----------------------------------------
+"""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
@@ -53,7 +53,7 @@ System and data confidentiality threats
 
 
 System and data integrity threats
----------------------------------
+"""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
@@ -69,7 +69,7 @@ System and data integrity threats
 
 
 System and data availability threats
-------------------------------------
+""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
@@ -82,7 +82,7 @@ System and data availability threats
 
 
 Authentication threats for system eligible users
-------------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
@@ -94,7 +94,7 @@ Authentication threats for system eligible users
 
 
 Authorization threats for system eligible users
------------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10
@@ -106,7 +106,7 @@ Authorization threats for system eligible users
 
 
 Repudiation threats for system eligible users
----------------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""
 .. csv-table::
   :header: **Threat ID**, **Threat**, **Asset**, **Element**
   :widths: 5, 40, 10, 10

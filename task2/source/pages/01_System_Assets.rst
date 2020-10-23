@@ -1,7 +1,21 @@
-System assets
+System Assets
 -------------
 
-From task 1 we identified the following assets in the system: "1. Authentication and Authorization Server", "2. Database Server", "3. Webserver", "4. Internal Servers", "5. Authenticative data", "6. Cookies (from webserver)", "7. Logs (metadata, eventlogs, etc.)", "8. Configuration data", "9. System software", "10. Science data", "11. EHR (Electronic Health Register", "12. User data (e.g. date-of-birth, ID)", "13. Patient vitals (e.g. blood pressure)".
+From task 1 we identified the following assets in the system:
+
+| 1. Authentication and Authorization Server
+| 2. Database Server
+| 3. Webserver
+| 4. Internal Servers
+| 5. Authenticative data
+| 6. Cookies (from webserver)
+| 7. Logs (metadata, eventlogs, etc.)
+| 8. Configuration data
+| 9. System software
+| 10. Science data
+| 11. EHR (Electronic Health Register
+| 12. User data (e.g. date-of-birth, ID)
+| 13. Patient vitals (e.g. blood pressure)
 
 First, we have the different hardware servers and the
 data they generate. These assets are the web server, database server,
